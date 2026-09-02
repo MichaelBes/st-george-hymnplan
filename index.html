@@ -10,18 +10,26 @@
 <body>
 
 <div class="topbar">
+  <a href="index.html" class="home-link" title="Home">&#10014;</a>
   <div class="coptic-date" id="coptic-date">Loading…</div>
   <div class="gregorian-date" id="gregorian-date"></div>
 </div>
 
 <main>
+  <div class="date-nav">
+    <button id="prev-day">&larr;</button>
+    <input type="date" id="date-picker" />
+    <button id="next-day">&rarr;</button>
+    <button id="today-btn">Today</button>
+  </div>
+
   <div class="section-label">Synaxarium — Saints of the Day</div>
   <div id="saints-container">
     <p class="empty-state">Loading…</p>
   </div>
 
   <p class="empty-state" style="margin-top: 24px; font-size: 0.85rem;">
-    Checked Coptic Reader and don't see today's entry above yet?
+    Checked Coptic Reader and don't see this day's entry above yet?
     Add it to <code>data/saints.json</code> under key
     <code id="date-key-hint"></code>.
   </p>
@@ -36,23 +44,26 @@
 <script src="js/coptic-calendar.js"></script>
 <script src="js/app.js"></script>
 <script>
-async function init() {
-  const today = new Date();
-  const coptic = gregorianToCoptic(today);
+let currentDate = getLiturgicalToday();
+let saintsData = null;
+
+async function renderForDate(date) {
+  const coptic = gregorianToCoptic(date);
   const key = copticDateKey(coptic);
 
   document.getElementById("coptic-date").textContent = formatCoptic(coptic);
-  document.getElementById("gregorian-date").textContent = formatGregorian(today);
+  document.getElementById("gregorian-date").textContent = formatGregorian(date);
+  document.getElementById("date-picker").value = formatDateInput(date);
   document.getElementById("date-key-hint").textContent = `"${key}"`;
 
-  const saints = await loadSaints();
-  const entries = saints[key];
+  if (!saintsData) saintsData = await loadSaints();
+  const entries = saintsData[key];
 
   const container = document.getElementById("saints-container");
   container.innerHTML = "";
 
   if (!entries || entries.length === 0) {
-    container.innerHTML = `<p class="empty-state">No entry saved yet for today. Check Coptic Reader and add it to saints.json.</p>`;
+    container.innerHTML = `<p class="empty-state">No entry saved yet for this day. Check Coptic Reader and add it to saints.json.</p>`;
     return;
   }
 
@@ -76,6 +87,31 @@ async function init() {
       ${hymnList}
     `;
     container.appendChild(el);
+  });
+}
+
+function init() {
+  renderForDate(currentDate);
+
+  document.getElementById("prev-day").addEventListener("click", () => {
+    currentDate.setDate(currentDate.getDate() - 1);
+    renderForDate(currentDate);
+  });
+
+  document.getElementById("next-day").addEventListener("click", () => {
+    currentDate.setDate(currentDate.getDate() + 1);
+    renderForDate(currentDate);
+  });
+
+  document.getElementById("today-btn").addEventListener("click", () => {
+    currentDate = getLiturgicalToday();
+    renderForDate(currentDate);
+  });
+
+  document.getElementById("date-picker").addEventListener("change", (e) => {
+    if (!e.target.value) return;
+    currentDate = parseDateInput(e.target.value);
+    renderForDate(currentDate);
   });
 }
 
