@@ -131,14 +131,24 @@
       "nameArabic": "",
       "summary": "The church celebrates the monthly commemoration of the honorable Archangel Michael, through whose intercession God brings the water of the rivers up to its measure and blesses the fruits of the earth and the plants of the field.",
       "hasHymn": true,
-      "hymnIds": ["Has a dedicated entry under Index > Saints > Angels > Archangel Michael — check there for the specific hymn set (doxology/psali/etc.)"]
+      "hymnIds": ["Adam Psali", "Watos Psali", "Verses of the Cymbals", "Doxology (for Michael alone, and a separate one for Michael and Gabriel)", "Psalm Trailer", "Gospel Response", "Hymn of the Intercessions", "Praxis Response"]
     },
     {
       "name": "King Constantine and Queen Helen",
       "nameArabic": "",
       "summary": "Commemorates the enthronement of Emperor Constantine the Great in Rome in 306 A.D. After his father Constantius Chlorus died, Constantine became emperor and abolished injustice throughout his realm. When the nobles of Rome asked for deliverance from the tyrant Maxentius, Constantine saw a cross in the sky with the words 'With this sign you will conquer,' defeated Maxentius at the Milvian Bridge in 312 A.D., and was received into Rome with great celebration.",
       "hasHymn": true,
-      "hymnIds": ["Has a dedicated entry under Index > Saints > Male Saints > King Constantine and Queen Helen — check there for the specific hymn set"]
+      "hymnIds": ["Verses of the Cymbals", "Gospel Response", "Hymn of the Intercessions", "Praxis Response"]
+    }
+  ],
+
+  "12-13": [
+    {
+      "name": "Feast of the Transfiguration of Our Lord on Mount Tabor",
+      "nameArabic": "",
+      "summary": "One of the minor feasts of our Lord. Jesus took Peter, James, and John up Mount Tabor to pray; His face and robe became radiant, and Moses and Elijah appeared speaking with Him of His departure to be accomplished in Jerusalem. Peter offered to build three tabernacles, but a bright cloud overshadowed them and a voice declared, 'This is My beloved Son, in whom I am well pleased. Hear Him,' after which the disciples fell on their faces in fear (Matthew 17:1-8).",
+      "hasHymn": true,
+      "hymnIds": ["Major Feast of the Lord — check Index > Feasts > Transfiguration for the specific hymn set (this page was too slow to load fully to confirm exact titles)"]
     }
   ],
 
