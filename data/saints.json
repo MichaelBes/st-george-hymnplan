@@ -1,6 +1,55 @@
 {
   "_schema_note": "Key is Coptic 'month-day' (e.g. '12-25' = Mesore 25). Add an entry each time you check Coptic Reader while planning a service. hasHymn should reflect whether the saint has a dedicated entry with hymns on Coptic Reader's Index page.",
 
+  "12-1": [
+    {
+      "name": "St. Apoli, Son of Justus",
+      "nameArabic": "",
+      "summary": "Martyred in 304 A.D., St. Apoli was a horseman and courageous commander, and crown prince of the Roman Empire, son of Emperor Numerianus. Returning from war to find Diocletian had abandoned the faith and revived pagan worship, Apoli confessed Christ along with his parents Justus and Theoclia and was martyred with them in Alexandria.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-2": [
+    {
+      "name": "St. Pa'esa (Athanasia)",
+      "nameArabic": "",
+      "summary": "A 4th-century saint born to wealthy Christian parents in Menouf, known for her charity, prayer, and fasting. After her parents' death she gave away her fortune to the poor, but was later led astray by evil people until the desert fathers sent St. John the Short to guide her back to repentance in the wilderness.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-3": [
+    {
+      "name": "St. Simon (Simeon) the Stylite",
+      "nameArabic": "",
+      "summary": "Commemorates the relocation of the body of St. Simon the Stylite in 471 A.D. from the city of Antioch to Constantinople during the reign of Emperor Zeno, in a splendid celebration.",
+      "hasHymn": false
+    },
+    {
+      "name": "Pope Ebrimus (Primus), Fifth Patriarch of Alexandria",
+      "nameArabic": "",
+      "summary": "Born in Alexandria and baptized by St. Mark the Evangelist himself, Ebrimus was one of only three men ordained priests by St. Mark. He was unanimously chosen to succeed Pope Kerdonus and was consecrated in 106 A.D., shepherding the church with special attention to guiding clergy and instructing the flock in Christian manners.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-4": [
+    {
+      "name": "King Hezekiah",
+      "nameArabic": "",
+      "summary": "Commemorates the righteous King Hezekiah of Judah, who was healed by God after fervent prayer and given fifteen more years of life (2 Kings 20:1-11). Hezekiah abolished idol worship, destroyed pagan altars, and restored true worship in the temple, reigning 29 years before departing in peace.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Anthony the Great (Antonius)",
+      "nameArabic": "",
+      "summary": "Commemorates the consecration of the church of St. Anthony, father of all monks, at his monastery in Mount Arabah (Mount Araklio) — a church that still stands today, where monks continue to pray daily. St. Anthony is one of the most significant fathers of monasticism in Coptic tradition.",
+      "hasHymn": true,
+      "hymnIds": ["Adam Psali for the Departure of Saint Antony the Great", "Watos Psali for the Departure of Saint Antony the Great", "The Great Saint Abba Antony Father of Monks (doxology)"]
+    }
+  ],
+
   "12-25": [
     {
       "name": "St. Bessarion the Great",
@@ -12,6 +61,15 @@
       "name": "Pope Macarius III, 114th Patriarch of Alexandria",
       "nameArabic": "",
       "summary": "Born in El-Mahalla El-Koubra, became a monk at St. Pishoy Monastery, served as Bishop of Assiut for 47 years, then Pope of Alexandria from 1944 until his death in 1945. His short papacy included reforms on divorce law, family legislation, and monastic education.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-26": [
+    {
+      "name": "St. Moses (Moisees) and his Sister Sarah",
+      "nameArabic": "",
+      "summary": "Martyred in 250 A.D., these two siblings were born to wealthy Christian parents in Alexandria. After their parents' death, Moses gave away all their possessions to the poor rather than marry, and took his sister to a convent of virgins while he withdrew to a nearby mountain in seclusion, the two not seeing each other for ten years, before their eventual martyrdom.",
       "hasHymn": false
     }
   ],
