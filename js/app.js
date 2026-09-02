@@ -46,3 +46,35 @@ function parseDateInput(value) {
 function formatCoptic(copticDate) {
   return `${copticDate.monthName} ${ordinal(copticDate.day)}, ${copticDate.year} A.M.`;
 }
+
+/**
+ * Date persistence across pages, without using browser storage: the
+ * selected (non-live) date travels as a ?date=YYYY-MM-DD query param.
+ * Absence of the param means "live" (today, per the 7 PM rollover).
+ */
+
+function getSelectedDateFromQuery() {
+  const params = new URLSearchParams(window.location.search);
+  const val = params.get("date");
+  return val ? parseDateInput(val) : null;
+}
+
+function getActiveDate() {
+  return getSelectedDateFromQuery() || getLiturgicalToday();
+}
+
+function isViewingLive() {
+  return getSelectedDateFromQuery() === null;
+}
+
+/**
+ * Keeps the same selected date attached when navigating between pages
+ * (home icon, bottom nav) so switching pages doesn't reset back to live.
+ */
+function propagateDateToNavLinks(date, live) {
+  const suffix = live ? "" : `?date=${formatDateInput(date)}`;
+  document.querySelectorAll(".home-link, .bottom-nav a").forEach((a) => {
+    const base = a.getAttribute("href").split("?")[0];
+    a.setAttribute("href", base + suffix);
+  });
+}
