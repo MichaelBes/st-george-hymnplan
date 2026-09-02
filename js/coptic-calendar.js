@@ -15,6 +15,25 @@ const COPTIC_MONTHS = [
 
 const JDN_COPTIC_EPOCH = 1825030; // JDN of Coptic 1/1/1 (29 Aug 284 CE Julian)
 
+// The Coptic liturgical day begins at Vespers (sunset), not midnight.
+// Coptic Reader rolls its displayed date over in the evening rather than
+// at 12:00 AM. 19:00 (7 PM) matches what's commonly used; adjust here if
+// your parish uses a different cutoff.
+const LITURGICAL_DAY_START_HOUR = 19;
+
+/**
+ * Returns a Date representing "today" per the liturgical day, i.e. once
+ * past LITURGICAL_DAY_START_HOUR local time, it's already tomorrow.
+ */
+function getLiturgicalToday(now = new Date()) {
+  const d = new Date(now);
+  if (d.getHours() >= LITURGICAL_DAY_START_HOUR) {
+    d.setDate(d.getDate() + 1);
+  }
+  d.setHours(0, 0, 0, 0);
+  return d;
+}
+
 function gregorianToJDN(year, month, day) {
   const a = Math.floor((14 - month) / 12);
   const y = year + 4800 - a;
@@ -64,5 +83,5 @@ function copticDateKey(copticDate) {
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { gregorianToCoptic, copticDateKey, COPTIC_MONTHS };
+  module.exports = { gregorianToCoptic, copticDateKey, COPTIC_MONTHS, getLiturgicalToday };
 }
