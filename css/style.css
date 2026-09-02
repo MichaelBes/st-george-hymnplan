@@ -170,9 +170,35 @@ a {
   cursor: default;
 }
 
-#live-btn {
-  width: 100%;
+.modal-preview {
+  text-align: center;
+  padding: 14px 10px;
+  margin-bottom: 16px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #f8f4e8;
+}
+
+.modal-preview-greg {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.modal-preview-coptic {
+  font-size: 0.85rem;
+  color: var(--red);
+  margin-top: 2px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
   margin-top: 16px;
+}
+
+.modal-actions button {
+  flex: 1;
 }
 
 .topbar .coptic-date {
