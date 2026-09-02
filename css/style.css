@@ -39,7 +39,40 @@ a {
 .topbar {
   background: var(--ink);
   color: #f3ede1;
-  padding: 18px 20px 16px;
+  padding: 18px 56px 16px 20px;
+  position: relative;
+}
+
+.home-link {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-decoration: none;
+  color: #f3ede1;
+  opacity: 0.8;
+}
+
+.home-link:hover {
+  opacity: 1;
+}
+
+.date-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.date-nav button {
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+
+.date-nav input[type="date"] {
+  flex: 1;
+  width: auto;
 }
 
 .topbar .coptic-date {
