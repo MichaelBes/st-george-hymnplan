@@ -49,30 +49,34 @@ function formatCoptic(copticDate) {
 
 /**
  * Date persistence across pages, without using browser storage: the
- * selected (non-live) date travels as a ?date=YYYY-MM-DD query param.
- * Absence of the param means "live" (today, per the 7 PM rollover).
+ * selected (non-live) view travels as ?date=YYYY-MM-DD&period=day|night
+ * query params. Absence of both means "live" (right now).
  */
 
-function getSelectedDateFromQuery() {
+function getSelectedViewFromQuery() {
   const params = new URLSearchParams(window.location.search);
-  const val = params.get("date");
-  return val ? parseDateInput(val) : null;
+  const dateVal = params.get("date");
+  const periodVal = params.get("period");
+  if (!dateVal || !periodVal) return null;
+  return { gregDate: parseDateInput(dateVal), period: periodVal };
 }
 
-function getActiveDate() {
-  return getSelectedDateFromQuery() || getLiturgicalToday();
+function getActiveView() {
+  return getSelectedViewFromQuery() || getLivePeriod();
 }
 
 function isViewingLive() {
-  return getSelectedDateFromQuery() === null;
+  return getSelectedViewFromQuery() === null;
 }
 
 /**
- * Keeps the same selected date attached when navigating between pages
+ * Keeps the same selected view attached when navigating between pages
  * (home icon, bottom nav) so switching pages doesn't reset back to live.
  */
-function propagateDateToNavLinks(date, live) {
-  const suffix = live ? "" : `?date=${formatDateInput(date)}`;
+function propagateDateToNavLinks(view, live) {
+  const suffix = live
+    ? ""
+    : `?date=${formatDateInput(view.gregDate)}&period=${view.period}`;
   document.querySelectorAll(".home-link, .bottom-nav a").forEach((a) => {
     const base = a.getAttribute("href").split("?")[0];
     a.setAttribute("href", base + suffix);

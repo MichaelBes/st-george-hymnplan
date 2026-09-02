@@ -16,21 +16,33 @@ const COPTIC_MONTHS = [
 const JDN_COPTIC_EPOCH = 1825030; // JDN of Coptic 1/1/1 (29 Aug 284 CE Julian)
 
 // The Coptic liturgical day begins at Vespers (sunset), not midnight.
-// Coptic Reader rolls its displayed date over in the evening rather than
-// at 12:00 AM. 19:00 (7 PM) matches what's commonly used; adjust here if
-// your parish uses a different cutoff.
-const LITURGICAL_DAY_START_HOUR = 19;
+// Coptic Reader rolls the *Coptic* date over in the evening while the
+// Gregorian calendar date shown stays the same all day — e.g. all of
+// Sept 2 is "September 2", but the Coptic date is one day ahead once
+// past this hour. Adjust here if your parish uses a different cutoff.
+const LITURGICAL_DAY_START_HOUR = 18; // 6 PM
 
 /**
- * Returns a Date representing "today" per the liturgical day, i.e. once
- * past LITURGICAL_DAY_START_HOUR local time, it's already tomorrow.
+ * Returns { gregDate, period } for right now: gregDate is today's actual
+ * calendar date (unshifted), period is "day" or "night" depending on
+ * whether it's past the rollover hour.
  */
-function getLiturgicalToday(now = new Date()) {
-  const d = new Date(now);
-  if (d.getHours() >= LITURGICAL_DAY_START_HOUR) {
-    d.setDate(d.getDate() + 1);
-  }
-  d.setHours(0, 0, 0, 0);
+function getLivePeriod(now = new Date()) {
+  const gregDate = new Date(now);
+  gregDate.setHours(0, 0, 0, 0);
+  const period = now.getHours() >= LITURGICAL_DAY_START_HOUR ? "night" : "day";
+  return { gregDate, period };
+}
+
+/**
+ * The Coptic calendar only cares about which "basis" Gregorian day to
+ * convert: during the day portion, it's the displayed date itself;
+ * during the night portion, it's already the next Coptic day even
+ * though the Gregorian date on screen hasn't changed.
+ */
+function copticBasisDate(gregDate, period) {
+  const d = new Date(gregDate);
+  if (period === "night") d.setDate(d.getDate() + 1);
   return d;
 }
 
@@ -83,5 +95,5 @@ function copticDateKey(copticDate) {
 }
 
 if (typeof module !== "undefined") {
-  module.exports = { gregorianToCoptic, copticDateKey, COPTIC_MONTHS, getLiturgicalToday };
+  module.exports = { gregorianToCoptic, copticDateKey, COPTIC_MONTHS, getLivePeriod, copticBasisDate };
 }

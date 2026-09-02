@@ -87,7 +87,7 @@ function exitSlides() {
 }
 
 async function init() {
-  propagateDateToNavLinks(getActiveDate(), isViewingLive());
+  propagateDateToNavLinks(getActiveView(), isViewingLive());
   const all = await loadHymns();
   communionHymns = all.filter((h) => h.category === "Communion");
 

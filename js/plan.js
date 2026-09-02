@@ -75,7 +75,7 @@ function renderLibrary(filterText = "") {
 }
 
 async function init() {
-  propagateDateToNavLinks(getActiveDate(), isViewingLive());
+  propagateDateToNavLinks(getActiveView(), isViewingLive());
   allHymns = await loadHymns();
   renderLibrary();
   renderPlan();
