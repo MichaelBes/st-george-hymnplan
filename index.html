@@ -40,6 +40,10 @@
 
 <div class="modal-overlay" id="date-modal" style="display: none;">
   <div class="modal-card" id="modal-card">
+    <div class="modal-preview">
+      <div class="modal-preview-greg" id="preview-greg"></div>
+      <div class="modal-preview-coptic" id="preview-coptic"></div>
+    </div>
     <div class="modal-header">
       <button id="cal-prev-month">&lsaquo;</button>
       <span id="cal-month-label"></span>
@@ -50,15 +54,22 @@
       <button id="toggle-moon" class="daynight-btn" title="After 7 PM">&#127769;</button>
     </div>
     <div class="calendar-grid" id="calendar-grid"></div>
-    <button id="live-btn" class="primary">Live (Now)</button>
+    <div class="modal-actions">
+      <button id="live-btn">Live</button>
+      <button id="save-btn" class="primary">Save</button>
+    </div>
   </div>
 </div>
 
 <script src="js/coptic-calendar.js"></script>
 <script src="js/app.js"></script>
 <script>
-let currentDate = getLiturgicalToday();
+let currentDate = getActiveDate();
+let liveMode = isViewingLive();
 let saintsData = null;
+
+// Modal-local state — nothing here applies until "Save" is pressed.
+let previewDate = currentDate;
 let modalViewYear, modalViewMonth;
 let modalDayNight = "sun";
 
@@ -108,9 +119,11 @@ async function renderForDate(date) {
 
 function openDateModal() {
   const now = new Date();
-  modalDayNight = now.getHours() >= 19 ? "moon" : "sun";
-  modalViewYear = currentDate.getFullYear();
-  modalViewMonth = currentDate.getMonth();
+  modalDayNight = liveMode ? (now.getHours() >= 19 ? "moon" : "sun") : "sun";
+  previewDate = new Date(currentDate);
+  modalViewYear = previewDate.getFullYear();
+  modalViewMonth = previewDate.getMonth();
+  updatePreview();
   renderCalendar();
   document.getElementById("date-modal").style.display = "flex";
 }
@@ -119,15 +132,28 @@ function closeDateModal() {
   document.getElementById("date-modal").style.display = "none";
 }
 
+function updatePreview() {
+  const effective = new Date(previewDate);
+  if (modalDayNight === "moon") effective.setDate(effective.getDate() + 1);
+
+  document.getElementById("preview-greg").textContent = effective.toLocaleDateString("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    year: "numeric"
+  });
+  document.getElementById("preview-coptic").textContent = formatCoptic(gregorianToCoptic(effective));
+
+  document.getElementById("toggle-sun").classList.toggle("active", modalDayNight === "sun");
+  document.getElementById("toggle-moon").classList.toggle("active", modalDayNight === "moon");
+}
+
 function renderCalendar() {
   const label = new Date(modalViewYear, modalViewMonth, 1).toLocaleDateString("en-US", {
     month: "long",
     year: "numeric"
   });
   document.getElementById("cal-month-label").textContent = label;
-
-  document.getElementById("toggle-sun").classList.toggle("active", modalDayNight === "sun");
-  document.getElementById("toggle-moon").classList.toggle("active", modalDayNight === "moon");
 
   const grid = document.getElementById("calendar-grid");
   grid.innerHTML = "";
@@ -155,23 +181,30 @@ function renderCalendar() {
     el.className = "day-cell";
     el.textContent = day;
     if (cellDate.toDateString() === today.toDateString()) el.classList.add("today");
-    if (cellDate.toDateString() === currentDate.toDateString()) el.classList.add("selected");
-    el.addEventListener("click", () => selectCalendarDay(cellDate));
+    if (cellDate.toDateString() === previewDate.toDateString()) el.classList.add("selected");
+    el.addEventListener("click", () => {
+      previewDate = cellDate;
+      updatePreview();
+      renderCalendar();
+    });
     grid.appendChild(el);
   }
 }
 
-function selectCalendarDay(gregDate) {
-  const effective = new Date(gregDate);
+function saveSelection() {
+  const effective = new Date(previewDate);
   if (modalDayNight === "moon") effective.setDate(effective.getDate() + 1);
   effective.setHours(0, 0, 0, 0);
-  currentDate = effective;
-  renderForDate(currentDate);
-  closeDateModal();
+  window.location.href = "index.html?date=" + formatDateInput(effective);
+}
+
+function goLive() {
+  window.location.href = "index.html";
 }
 
 function init() {
   renderForDate(currentDate);
+  propagateDateToNavLinks(currentDate, liveMode);
 
   document.getElementById("open-date-modal").addEventListener("click", openDateModal);
   document.getElementById("date-modal").addEventListener("click", (e) => {
@@ -198,19 +231,16 @@ function init() {
 
   document.getElementById("toggle-sun").addEventListener("click", () => {
     modalDayNight = "sun";
-    renderCalendar();
+    updatePreview();
   });
 
   document.getElementById("toggle-moon").addEventListener("click", () => {
     modalDayNight = "moon";
-    renderCalendar();
+    updatePreview();
   });
 
-  document.getElementById("live-btn").addEventListener("click", () => {
-    currentDate = getLiturgicalToday();
-    renderForDate(currentDate);
-    closeDateModal();
-  });
+  document.getElementById("save-btn").addEventListener("click", saveSelection);
+  document.getElementById("live-btn").addEventListener("click", goLive);
 }
 
 init();
