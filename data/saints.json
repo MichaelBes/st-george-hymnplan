@@ -50,6 +50,36 @@
     }
   ],
 
+  "12-5": [
+    {
+      "name": "St. John the Soldier",
+      "nameArabic": "",
+      "summary": "Born in Ashroubah (Beni Mazar, Minya) to pious Christian parents, John joined the army of the apostate Emperor Julian. While outwardly appearing to persecute Christians alongside his fellow soldiers, he secretly protected and provided for them. When the emperor discovered his account, he had John severely tortured and beheaded, earning the crown of martyrdom.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-6": [
+    {
+      "name": "St. Julietta",
+      "nameArabic": "",
+      "summary": "Born in Caesarea, Cappadocia, to wealthy Christian parents, Julietta inherited great wealth which an oppressor tried to defraud from her. When she sought to reclaim it, he accused her of being Christian before the governor, who tortured her and cast her into fire; she delivered her spirit to the Lord and her body remained unharmed by the flames.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Jacob al-Baradai (Jacobus Baradaeus)",
+      "nameArabic": "",
+      "summary": "Son of a priest from Tela near Edessa, Jacob became a monk in his youth and gained vast knowledge in theology and Syriac/Greek literature. Empress Theodora had him consecrated Metropolitan of Edessa to shepherd Orthodox Christians who rejected the Council of Chalcedon; disguised in a poor beggar's garb (giving rise to his name 'al-Baradai'), he traveled tirelessly ordaining an extraordinary number of clergy — reportedly 100,000 clergy and 89 bishops — before dying at 73 while traveling to meet the Coptic Pope in Egypt.",
+      "hasHymn": false
+    },
+    {
+      "name": "Abba Besa, Disciple of St. Shenouda the Archimandrite",
+      "nameArabic": "",
+      "summary": "Born in the city of Absay to a wealthy, charitable father who prayed for a son and was granted one by God. Educated from age five in reading, writing, and the Scriptures, Besa grew in grace and became a devoted disciple of St. Shenouda the Archimandrite, eventually taking up the monastic life himself.",
+      "hasHymn": false
+    }
+  ],
+
   "12-25": [
     {
       "name": "St. Bessarion the Great",
