@@ -116,6 +116,32 @@
     }
   ],
 
+  "12-11": [
+    {
+      "name": "St. Moisis (Moses), Bishop of Ouseem",
+      "nameArabic": "",
+      "summary": "Pure and chaste since his youth, Moisis studied church subjects, was ordained a deacon, then went to the desert of Scetis to become a monk, serving a holy elder for eighteen years with devotion to prayer, fasting, humility, and love. Once his virtues became known, he was consecrated bishop of Ouseem, where he shepherded Christ's flock with great care, remaining ascetic and owning nothing his whole life. He suffered many tribulations alongside Pope Khail I, and God worked many signs and miracles by his hands before he reached old age and departed in peace, having served more than twenty years on his episcopal seat.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-12": [
+    {
+      "name": "Archangel Michael",
+      "nameArabic": "",
+      "summary": "The church celebrates the monthly commemoration of the honorable Archangel Michael, through whose intercession God brings the water of the rivers up to its measure and blesses the fruits of the earth and the plants of the field.",
+      "hasHymn": true,
+      "hymnIds": ["Has a dedicated entry under Index > Saints > Angels > Archangel Michael — check there for the specific hymn set (doxology/psali/etc.)"]
+    },
+    {
+      "name": "King Constantine and Queen Helen",
+      "nameArabic": "",
+      "summary": "Commemorates the enthronement of Emperor Constantine the Great in Rome in 306 A.D. After his father Constantius Chlorus died, Constantine became emperor and abolished injustice throughout his realm. When the nobles of Rome asked for deliverance from the tyrant Maxentius, Constantine saw a cross in the sky with the words 'With this sign you will conquer,' defeated Maxentius at the Milvian Bridge in 312 A.D., and was received into Rome with great celebration.",
+      "hasHymn": true,
+      "hymnIds": ["Has a dedicated entry under Index > Saints > Male Saints > King Constantine and Queen Helen — check there for the specific hymn set"]
+    }
+  ],
+
   "12-25": [
     {
       "name": "St. Bessarion the Great",
