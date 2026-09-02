@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Communion Hymns — St. George Hymn Planner</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="coptic-date">Communion Hymns</div>
+  <div class="gregorian-date">Pick this Sunday's communion hymns, then present them</div>
+</div>
+
+<main id="picker-view">
+  <div class="section-label">Selected, in order</div>
+  <ul class="plan-list" id="selected-list">
+    <li class="empty-state">None selected yet.</li>
+  </ul>
+
+  <div class="section-label">Communion Hymns in Library</div>
+  <div id="communion-library"></div>
+
+  <div style="margin-top: 24px;">
+    <button class="primary" id="start-slides">Start Presentation</button>
+  </div>
+</main>
+
+<div class="slide-mode" id="slide-view" style="display: none;">
+  <div class="slide-counter" id="slide-counter"></div>
+  <div class="slide-title" id="slide-title"></div>
+  <div class="slide-meta" id="slide-meta"></div>
+  <div class="slide-nav">
+    <button id="prev-slide">← Prev</button>
+    <button id="exit-slides">Exit</button>
+    <button id="next-slide">Next →</button>
+  </div>
+</div>
+
+<nav class="bottom-nav" id="bottom-nav">
+  <a href="index.html">Today</a>
+  <a href="plan.html">Plan a Service</a>
+  <a href="communion.html" class="active">Communion Hymns</a>
+</nav>
+
+<script src="js/app.js"></script>
+<script src="js/communion.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "_schema_note": "Key is Coptic 'month-day' (e.g. '12-25' = Mesore 25). Add an entry each time you check Coptic Reader while planning a service. hasHymn should reflect whether the saint has a dedicated entry with hymns on Coptic Reader's Index page.",
+
+  "12-25": [
+    {
+      "name": "St. Bessarion the Great",
+      "nameArabic": "",
+      "summary": "A 4th-century Egyptian ascetic who trained under Anba Anthony and Anba Macarius before withdrawing into the desert, owning nothing but a coarse garment and the Gospels. Known for walking on water, sweetening salt water for a thirsty companion, healing a paralyzed child, and guiding St. Taor to repentance.",
+      "hasHymn": false
+    },
+    {
+      "name": "Pope Macarius III, 114th Patriarch of Alexandria",
+      "nameArabic": "",
+      "summary": "Born in El-Mahalla El-Koubra, became a monk at St. Pishoy Monastery, served as Bishop of Assiut for 47 years, then Pope of Alexandria from 1944 until his death in 1945. His short papacy included reforms on divorce law, family legislation, and monastic education.",
+      "hasHymn": false
+    }
+  ],
+
+  "_template": [
+    {
+      "name": "Saint Name (as shown on Coptic Reader)",
+      "nameArabic": "",
+      "summary": "3-4 sentence summary, written the way you'd want to read it before a service.",
+      "hasHymn": true,
+      "hymnIds": ["example-hymn-id"]
+    }
+  ]
+}

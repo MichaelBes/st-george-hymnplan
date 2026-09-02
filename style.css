@@ -1,0 +1,264 @@
+:root {
+  --bg: #f3ede1;
+  --card: #fbf8f1;
+  --ink: #1f3a5c;
+  --red: #7a2426;
+  --gold: #b08d3e;
+  --text: #2a2420;
+  --text-soft: #5c5346;
+  --line: #d8cdb8;
+
+  --font-display: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 72px; /* room for bottom nav */
+}
+
+a {
+  color: var(--ink);
+}
+
+/* ---------- Top bar ---------- */
+
+.topbar {
+  background: var(--ink);
+  color: #f3ede1;
+  padding: 18px 20px 16px;
+}
+
+.topbar .coptic-date {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1.15;
+}
+
+.topbar .gregorian-date {
+  font-size: 0.85rem;
+  color: #c9d3de;
+  margin-top: 2px;
+}
+
+/* ---------- Main content ---------- */
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section-label {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--red);
+  margin: 28px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+
+.section-label:first-child {
+  margin-top: 0;
+}
+
+/* ---------- Saint entry ---------- */
+
+.saint-entry {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.saint-entry:last-child {
+  border-bottom: none;
+}
+
+.saint-name {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0 0 6px;
+  color: var(--text);
+}
+
+.saint-summary {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--text-soft);
+  margin: 0 0 8px;
+  max-width: 62ch;
+}
+
+.hymn-flag {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 3px 9px;
+  border-radius: 3px;
+  border: 1px solid var(--line);
+}
+
+.hymn-flag.yes {
+  border-color: var(--gold);
+  color: #7a5f1e;
+  background: #f8f0dc;
+}
+
+.hymn-flag.no {
+  color: var(--text-soft);
+}
+
+.hymn-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.empty-state {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  padding: 8px 0 4px;
+}
+
+/* ---------- Hymn library / plan builder ---------- */
+
+.hymn-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.hymn-row-title {
+  font-size: 0.95rem;
+}
+
+.hymn-row-meta {
+  font-size: 0.78rem;
+  color: var(--text-soft);
+  margin-top: 2px;
+}
+
+button {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  padding: 7px 14px;
+  border-radius: 3px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+button.primary {
+  background: var(--ink);
+  color: #f3ede1;
+}
+
+button.remove {
+  border-color: var(--line);
+  color: var(--red);
+}
+
+input[type="text"], select {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: var(--card);
+  color: var(--text);
+  width: 100%;
+}
+
+.plan-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------- Bottom nav ---------- */
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background: var(--card);
+  border-top: 1px solid var(--line);
+}
+
+.bottom-nav a {
+  flex: 1;
+  text-align: center;
+  padding: 12px 0 14px;
+  font-size: 0.78rem;
+  text-decoration: none;
+  color: var(--text-soft);
+}
+
+.bottom-nav a.active {
+  color: var(--red);
+  font-weight: 600;
+}
+
+/* ---------- Communion slide mode ---------- */
+
+.slide-mode {
+  position: fixed;
+  inset: 0;
+  background: var(--ink);
+  color: #f3ede1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.slide-mode .slide-counter {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  font-size: 0.8rem;
+  color: #a9b8c8;
+}
+
+.slide-mode .slide-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 6vw, 3rem);
+  margin: 0 0 12px;
+}
+
+.slide-mode .slide-meta {
+  font-size: 0.9rem;
+  color: #c9d3de;
+}
+
+.slide-mode .slide-nav {
+  position: absolute;
+  bottom: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.slide-mode .slide-nav button {
+  border-color: #f3ede1;
+  color: #f3ede1;
+}

@@ -1,0 +1,14 @@
+{
+  "_schema_note": "category is one of: Doxology, Intercession, Communion, Praise, General. tags can include saint names, season names, or feast names for filtering. Add hymns as you build out your library.",
+
+  "hymns": [
+    {
+      "id": "example-hymn-id",
+      "title": "Example Hymn Title",
+      "category": "Intercession",
+      "language": "English",
+      "tags": ["Saint Name"],
+      "lyricsLink": ""
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Today — St. George Hymn Planner</title>
+<link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="coptic-date" id="coptic-date">Loading…</div>
+  <div class="gregorian-date" id="gregorian-date"></div>
+</div>
+
+<main>
+  <div class="section-label">Synaxarium — Saints of the Day</div>
+  <div id="saints-container">
+    <p class="empty-state">Loading…</p>
+  </div>
+
+  <p class="empty-state" style="margin-top: 24px; font-size: 0.85rem;">
+    Checked Coptic Reader and don't see today's entry above yet?
+    Add it to <code>data/saints.json</code> under key
+    <code id="date-key-hint"></code>.
+  </p>
+</main>
+
+<nav class="bottom-nav">
+  <a href="index.html" class="active">Today</a>
+  <a href="plan.html">Plan a Service</a>
+  <a href="communion.html">Communion Hymns</a>
+</nav>
+
+<script src="js/coptic-calendar.js"></script>
+<script src="js/app.js"></script>
+<script>
+async function init() {
+  const today = new Date();
+  const coptic = gregorianToCoptic(today);
+  const key = copticDateKey(coptic);
+
+  document.getElementById("coptic-date").textContent = formatCoptic(coptic);
+  document.getElementById("gregorian-date").textContent = formatGregorian(today);
+  document.getElementById("date-key-hint").textContent = `"${key}"`;
+
+  const saints = await loadSaints();
+  const entries = saints[key];
+
+  const container = document.getElementById("saints-container");
+  container.innerHTML = "";
+
+  if (!entries || entries.length === 0) {
+    container.innerHTML = `<p class="empty-state">No entry saved yet for today. Check Coptic Reader and add it to saints.json.</p>`;
+    return;
+  }
+
+  entries.forEach((saint) => {
+    const el = document.createElement("div");
+    el.className = "saint-entry";
+
+    const hymnFlag = saint.hasHymn
+      ? `<span class="hymn-flag yes">Dedicated hymn</span>`
+      : `<span class="hymn-flag no">No dedicated hymn</span>`;
+
+    const hymnList =
+      saint.hasHymn && saint.hymnIds && saint.hymnIds.length
+        ? `<ul class="hymn-list">${saint.hymnIds.map((id) => `<li>${id}</li>`).join("")}</ul>`
+        : "";
+
+    el.innerHTML = `
+      <h2 class="saint-name">${saint.name}</h2>
+      <p class="saint-summary">${saint.summary}</p>
+      ${hymnFlag}
+      ${hymnList}
+    `;
+    container.appendChild(el);
+  });
+}
+
+init();
+</script>
+</body>
+</html>
