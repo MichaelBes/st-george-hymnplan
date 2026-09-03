@@ -46,7 +46,7 @@
       "nameArabic": "",
       "summary": "Commemorates the consecration of the church of St. Anthony, father of all monks, at his monastery in Mount Arabah (Mount Araklio) — a church that still stands today, where monks continue to pray daily. St. Anthony is one of the most significant fathers of monasticism in Coptic tradition.",
       "hasHymn": true,
-      "hymnIds": ["Adam Psali for the Departure of Saint Antony the Great", "Watos Psali for the Departure of Saint Antony the Great", "The Great Saint Abba Antony Father of Monks (doxology)"]
+      "hymnIds": ["Adam Psali", "Watos Psali", "Verses of the Cymbals", "Doxology for St. Anthony alone", "Doxology for St. Anthony and St. Paul the Hermit together", "Gospel Response", "Hymn of the Intercessions", "Praxis Response (consistent with every other saint page checked)"]
     }
   ],
 
@@ -149,6 +149,96 @@
       "summary": "One of the minor feasts of our Lord. Jesus took Peter, James, and John up Mount Tabor to pray; His face and robe became radiant, and Moses and Elijah appeared speaking with Him of His departure to be accomplished in Jerusalem. Peter offered to build three tabernacles, but a bright cloud overshadowed them and a voice declared, 'This is My beloved Son, in whom I am well pleased. Hear Him,' after which the disciples fell on their faces in fear (Matthew 17:1-8).",
       "hasHymn": true,
       "hymnIds": ["Major Feast of the Lord — check Index > Feasts > Transfiguration for the specific hymn set (this page was too slow to load fully to confirm exact titles)"]
+    }
+  ],
+
+  "12-14": [
+    {
+      "name": "The Great Sign the Lord Manifested During the Papacy of Pope Theophilus",
+      "nameArabic": "",
+      "summary": "Commemorates a miracle during the papacy of Pope Theophilus, 23rd Patriarch of Alexandria: a wealthy Jewish man named Philoxinus lived in Alexandria alongside two poor Christian men. When one questioned why the faithful remained poor while an unbeliever prospered, the other explained that worldly riches are not a sign of God's favor. The story illustrates that true faith is tested apart from material wealth — a teaching narrative rather than a saint's biography.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-15": [
+    {
+      "name": "St. Mary Known as Marina, the Ascetic",
+      "nameArabic": "",
+      "summary": "An 8th-century saint born Mary to a wealthy Christian father, Euganius, and pious mother, Sarah, in Bithynia, Asia Minor. When her father wished to remarry her off but instead chose monastic life himself, she refused to be left behind, cut her hair, donned men's clothing, and joined him at the monastery disguised as his 'son' Marina. She lived for years undetected among the monks, her gentle voice attributed to her ascetic discipline, persevering in prayer and fasting until her father's death, after which she continued the monastic life as 'the monk Marina.'",
+      "hasHymn": false
+    }
+  ],
+
+  "12-16": [
+    {
+      "name": "The Assumption of the Body of the Virgin St. Mary to Heaven",
+      "nameArabic": "",
+      "summary": "Commemorates the revealing of the assumption of the body of St. Mary to heaven. She had departed on the 21st of Tobe, surrounded by the apostles; St. Thomas, absent while preaching in India, arrived after her burial in Gethsemane and was shown her body being taken up by angels. Angelic praises and the aroma of incense surrounded her tomb for three days before her pure body was assumed into heaven.",
+      "hasHymn": true,
+      "hymnIds": ["Major Marian feast — St. Mary the Mother of God has an extensive dedicated Index entry (Psalis, Doxologies, Theotokia, etc.); check Index > Saints > St. Mary the Mother of God for the full set"]
+    }
+  ],
+
+  "12-17": [
+    {
+      "name": "St. James the Soldier",
+      "nameArabic": "",
+      "summary": "Martyred in 304 A.D., James was born in the village of Mengoug to God-fearing Christian parents who had three daughters before him and dedicated him to God in answer to prayer. He tended his father's sheep under a devout shepherd he took as a role model. When persecution arose, the shepherd went to confess Christ, and James asked his father to let him accompany the shepherd to martyrdom.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-18": [
+    {
+      "name": "St. Alexander, Patriarch of Constantinople",
+      "nameArabic": "",
+      "summary": "Departed in 336 A.D., an honorable scholar who suffered many hardships opposing the Arian heresy. When St. Athanasius the Apostolic renewed the excommunication of Arius, Emperor Constantine pressured St. Alexander to readmit Arius to communion, but Alexander firmly replied that only the universal council which stripped Arius of his rank could restore it. St. James, Bishop of Nisibis, joined him in prayer that the Lord would keep this danger from the Church.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-19": [
+    {
+      "name": "The Return of the Body of St. Macarius the Great to His Monastery in Scetis",
+      "nameArabic": "",
+      "summary": "In 793 A.D., during the papacy of Pope Yoannis IV, the body of St. Macarius the Great was returned to his monastery in Scetis (Wadi El Natrun). It had been away since 480 A.D., when it was moved first to Shabsheer and then to Almay, each city building a great church to house it. Pope Yoannis IV, spending the holy forty days at the saint's monastery, expressed his yearning that the body be returned, and it was accomplished that year.",
+      "hasHymn": true,
+      "hymnIds": ["St. Macarius the Great is a major desert father on Index > Saints > Male Saints with a dedicated hymn set (Psalis, Doxology, etc.) — check there for the full list"]
+    }
+  ],
+
+  "12-20": [
+    {
+      "name": "The Seven Young Men of Ephesus (Seven Sleepers)",
+      "nameArabic": "",
+      "summary": "Martyred around 250 A.D.: Maximus, Malchus, Martinianus, Dionysius, John, Serapion, and Constantine — soldiers of Emperor Decius trusted to guard the royal treasury. When accused of Christianity for refusing idol worship, they hid in a cave outside Ephesus; the emperor had the entrance sealed, delivering their spirits to the Lord. About 200 years later, God revealed their bodies to the bishop of Ephesus in a vision during the reign of Emperor Theodosius the Less, so their story could be a testimony to the resurrection of the dead.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-21": [
+    {
+      "name": "The Commemoration of the Virgin St. Mary, the Mother of God",
+      "nameArabic": "",
+      "summary": "The monthly commemoration of the Mother of God, the Virgin St. Mary, intercessor of mankind, the chosen queen, the burning bush, the tabernacle, the pot of manna, Aaron's rod, and the Holy of Holies.",
+      "hasHymn": true,
+      "hymnIds": ["Monthly Marian commemoration — St. Mary has a major dedicated hymn set on Index > Saints > St. Mary the Mother of God (Theotokia, Psalis, etc.)"]
+    },
+    {
+      "name": "St. Irene (Eirene)",
+      "nameArabic": "",
+      "summary": "A first-century saint, daughter of King Lucianus (Licinius) of Macedonia. She was born after her parents lost all previous children, and her father, concerned for her exceptional beauty, built her a fortified mansion with thirteen maiden servants when she was six. Though her idol-worshiping parents left statues for her to worship, her Christian tutor Apellianus (Aplianus) instructed her wisely and justly instead.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-22": [
+    {
+      "name": "Micah the Prophet",
+      "nameArabic": "",
+      "summary": "Departed in 696 B.C.: a righteous Old Testament prophet from the tribe of Judah, born in Moresheth Gath and called Micah el-Morashti. A quiet, wise, and compassionate poet, he prophesied for about sixty years during the reigns of Jotham, Ahaz, and Hezekiah, kings of Judah, contemporary with the prophet Isaiah. He foretold the destruction of Samaria and Jerusalem, called the people to repentance, and prophesied the return of God's mercy.",
+      "hasHymn": false
     }
   ],
 
