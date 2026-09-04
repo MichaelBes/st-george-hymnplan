@@ -148,7 +148,7 @@
       "nameArabic": "",
       "summary": "One of the minor feasts of our Lord. Jesus took Peter, James, and John up Mount Tabor to pray; His face and robe became radiant, and Moses and Elijah appeared speaking with Him of His departure to be accomplished in Jerusalem. Peter offered to build three tabernacles, but a bright cloud overshadowed them and a voice declared, 'This is My beloved Son, in whom I am well pleased. Hear Him,' after which the disciples fell on their faces in fear (Matthew 17:1-8).",
       "hasHymn": true,
-      "hymnIds": ["Major Feast of the Lord — check Index > Feasts > Transfiguration for the specific hymn set (this page was too slow to load fully to confirm exact titles)"]
+      "hymnIds": ["Verses of the Cymbals", "Doxology for the Transfiguration", "Psalm Response", "Gospel Response"]
     }
   ],
 
@@ -176,7 +176,7 @@
       "nameArabic": "",
       "summary": "Commemorates the revealing of the assumption of the body of St. Mary to heaven. She had departed on the 21st of Tobe, surrounded by the apostles; St. Thomas, absent while preaching in India, arrived after her burial in Gethsemane and was shown her body being taken up by angels. Angelic praises and the aroma of incense surrounded her tomb for three days before her pure body was assumed into heaven.",
       "hasHymn": true,
-      "hymnIds": ["Major Marian feast — St. Mary the Mother of God has an extensive dedicated Index entry (Psalis, Doxologies, Theotokia, etc.); check Index > Saints > St. Mary the Mother of God for the full set"]
+      "hymnIds": ["Adam Psali for the Feast of the Revelation of the Assumption of St. Mary's Body", "Watos Psali for the Feast of the Revelation of the Assumption of St. Mary's Body", "The Midnight Doxology for the Virgin", "plus the standard set shared across St. Mary's occasions: Verses of the Cymbals, Doxology, Gospel Response, Hymn of the Intercessions"]
     }
   ],
 
@@ -204,7 +204,7 @@
       "nameArabic": "",
       "summary": "In 793 A.D., during the papacy of Pope Yoannis IV, the body of St. Macarius the Great was returned to his monastery in Scetis (Wadi El Natrun). It had been away since 480 A.D., when it was moved first to Shabsheer and then to Almay, each city building a great church to house it. Pope Yoannis IV, spending the holy forty days at the saint's monastery, expressed his yearning that the body be returned, and it was accomplished that year.",
       "hasHymn": true,
-      "hymnIds": ["St. Macarius the Great is a major desert father on Index > Saints > Male Saints with a dedicated hymn set (Psalis, Doxology, etc.) — check there for the full list"]
+      "hymnIds": ["Adam Psali (for the church consecration)", "Watos Psali (for the church consecration)", "Adam Psali (for his departure)", "Watos Psali (for his departure)", "Verses of the Cymbals", "Doxology (two versions)", "Gospel Response", "Hymn of the Intercessions", "Glorification/Veneration (Tamgeed, a 25-verse hymn)"]
     }
   ],
 
@@ -223,7 +223,7 @@
       "nameArabic": "",
       "summary": "The monthly commemoration of the Mother of God, the Virgin St. Mary, intercessor of mankind, the chosen queen, the burning bush, the tabernacle, the pot of manna, Aaron's rod, and the Holy of Holies.",
       "hasHymn": true,
-      "hymnIds": ["Monthly Marian commemoration — St. Mary has a major dedicated hymn set on Index > Saints > St. Mary the Mother of God (Theotokia, Psalis, etc.)"]
+      "hymnIds": ["The Midnight Doxology for the Virgin (the central Theotokia)", "Adam Psali for the Birth of the Virgin", "Adam Psali for the Departure of the Virgin", "plus the standard set shared across St. Mary's occasions: Verses of the Cymbals, Doxology, Gospel Response, Hymn of the Intercessions"]
     },
     {
       "name": "St. Irene (Eirene)",
@@ -256,6 +256,41 @@
       "name": "St. Thomas, Bishop of Mar'ash (Syria)",
       "nameArabic": "",
       "summary": "An ascetic worshiper diligent in fasting and prayer, merciful to the poor and needy, consecrated bishop of Mar'ash in Syria for his devoted shepherding. When Diocletian incited persecution against Christians, the governor summoned Thomas and demanded he worship idols; upon his refusal he was severely tortured, had organs dismembered one at a time, and was cast into an abandoned prison for twenty-two years — his congregation presuming him dead — sustained secretly at night by a faithful woman through a small opening in the prison wall, until Emperor Constantine ordered the release of imprisoned Christians.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-28": [
+    {
+      "name": "The Patriarchs Abraham, Isaac, and Jacob",
+      "nameArabic": "",
+      "summary": "Commemorates the holy fathers Abraham, Isaac, and Jacob. Abraham, born in Ur of the Chaldeans to the idol-worshiper Terah, was called by God to leave his country for the land God would show him, with the promise to make him a great nation and a blessing to all families of the earth. He settled in Canaan, was given Isaac in his old age, and was tested by God's command to offer Isaac as a burnt offering on Mount Moriah.",
+      "hasHymn": true,
+      "hymnIds": ["Adam Psali", "Watos Psali", "Verses of the Cymbals", "Doxology", "Gospel Response", "Hymn of the Intercessions", "Praxis Response"]
+    }
+  ],
+
+  "12-29": [
+    {
+      "name": "The Commemoration of the Three Major Feasts of the Lord (Joyful 29th)",
+      "nameArabic": "",
+      "summary": "The monthly commemoration of the three major feasts of the Lord: the Annunciation, the Nativity, and the Resurrection. The liturgy is prayed in the joyful tune, with no strict abstinence or prostrations that day.",
+      "hasHymn": true,
+      "hymnIds": ["Verses of the Cymbals", "Doxology (for the Annunciation)", "Psalm Response", "Gospel Response", "plus an extensive weekday Theotokia cycle (Psalis) covering the Annunciation, Nativity, and Resurrection in turn"]
+    },
+    {
+      "name": "St. Athanasius the Bishop and His Two Servants, Gerasimus and Theodotus",
+      "nameArabic": "",
+      "summary": "Martyred in 303 A.D. St. Athanasius the bishop was an honorable, zealous man of the Christian faith. Accused before Arianus the Governor of having baptized the daughter of the chancellor Antonius, he was arrested and endured many torments, remaining steadfast in his confession until he provoked the governor's wrath along with his two faithful servants, Gerasimus and Theodotus, who were martyred with him.",
+      "hasHymn": false
+    }
+  ],
+
+  "12-30": [
+    {
+      "name": "Malachi the Prophet",
+      "nameArabic": "",
+      "summary": "Departed in 430 B.C.: one of the twelve Minor Prophets and the last prophet of the Old Testament, prophesying post-exile during the absence of Nehemiah at Shushan around 432 B.C., after the building of the temple. He exposed the corruption of the priests and people, declared God's hatred of divorce, rebuked the rich for hard-heartedness toward the poor, warned of coming plagues, and prophesied the abolishing of Old Testament sacrifice for the New. He also foretold the divine incarnation: 'the Lord, whom you seek, will suddenly come to His temple... Behold, He is coming, says the LORD of hosts' (Malachi 3:1).",
       "hasHymn": false
     }
   ],
