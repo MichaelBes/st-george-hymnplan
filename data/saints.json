@@ -1,6 +1,5 @@
 {
   "_schema_note": "Key is Coptic 'month-day' (e.g. '12-25' = Mesore 25). Add an entry each time you check Coptic Reader while planning a service. hasHymn should reflect whether the saint has a dedicated entry with hymns on Coptic Reader's Index page.",
-
   "12-1": [
     {
       "name": "St. Apoli, Son of Justus",
@@ -9,7 +8,6 @@
       "hasHymn": false
     }
   ],
-
   "12-2": [
     {
       "name": "St. Pa'esa (Athanasia)",
@@ -18,7 +16,6 @@
       "hasHymn": false
     }
   ],
-
   "12-3": [
     {
       "name": "St. Simon (Simeon) the Stylite",
@@ -33,7 +30,6 @@
       "hasHymn": false
     }
   ],
-
   "12-4": [
     {
       "name": "King Hezekiah",
@@ -46,10 +42,18 @@
       "nameArabic": "",
       "summary": "Commemorates the consecration of the church of St. Anthony, father of all monks, at his monastery in Mount Arabah (Mount Araklio) — a church that still stands today, where monks continue to pray daily. St. Anthony is one of the most significant fathers of monasticism in Coptic tradition.",
       "hasHymn": true,
-      "hymnIds": ["Adam Psali", "Watos Psali", "Verses of the Cymbals", "Doxology for St. Anthony alone", "Doxology for St. Anthony and St. Paul the Hermit together", "Gospel Response", "Hymn of the Intercessions", "Praxis Response (consistent with every other saint page checked)"]
+      "hymnIds": [
+        "Adam Psali",
+        "Watos Psali",
+        "Verses of the Cymbals",
+        "Doxology for St. Anthony alone",
+        "Doxology for St. Anthony and St. Paul the Hermit together",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response (consistent with every other saint page checked)"
+      ]
     }
   ],
-
   "12-5": [
     {
       "name": "St. John the Soldier",
@@ -58,7 +62,6 @@
       "hasHymn": false
     }
   ],
-
   "12-6": [
     {
       "name": "St. Julietta",
@@ -79,7 +82,6 @@
       "hasHymn": false
     }
   ],
-
   "12-7": [
     {
       "name": "The Annunciation of the Angel to St. Joachim, with the Birth of the Virgin St. Mary",
@@ -88,7 +90,6 @@
       "hasHymn": false
     }
   ],
-
   "12-8": [
     {
       "name": "Sts. Eleazar, Salome, and their Seven Children (The Seven Maccabees)",
@@ -97,7 +98,6 @@
       "hasHymn": false
     }
   ],
-
   "12-9": [
     {
       "name": "St. Ari (Ori), the Priest of Shatanof",
@@ -106,7 +106,6 @@
       "hasHymn": false
     }
   ],
-
   "12-10": [
     {
       "name": "St. Pihebs (Bekhibs)",
@@ -115,7 +114,6 @@
       "hasHymn": false
     }
   ],
-
   "12-11": [
     {
       "name": "St. Moisis (Moses), Bishop of Ouseem",
@@ -124,34 +122,50 @@
       "hasHymn": false
     }
   ],
-
   "12-12": [
     {
       "name": "Archangel Michael",
       "nameArabic": "",
       "summary": "The church celebrates the monthly commemoration of the honorable Archangel Michael, through whose intercession God brings the water of the rivers up to its measure and blesses the fruits of the earth and the plants of the field.",
       "hasHymn": true,
-      "hymnIds": ["Adam Psali", "Watos Psali", "Verses of the Cymbals", "Doxology (for Michael alone, and a separate one for Michael and Gabriel)", "Psalm Trailer", "Gospel Response", "Hymn of the Intercessions", "Praxis Response"]
+      "hymnIds": [
+        "Adam Psali",
+        "Watos Psali",
+        "Verses of the Cymbals",
+        "Doxology (for Michael alone, and a separate one for Michael and Gabriel)",
+        "Psalm Trailer",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response"
+      ]
     },
     {
       "name": "King Constantine and Queen Helen",
       "nameArabic": "",
       "summary": "Commemorates the enthronement of Emperor Constantine the Great in Rome in 306 A.D. After his father Constantius Chlorus died, Constantine became emperor and abolished injustice throughout his realm. When the nobles of Rome asked for deliverance from the tyrant Maxentius, Constantine saw a cross in the sky with the words 'With this sign you will conquer,' defeated Maxentius at the Milvian Bridge in 312 A.D., and was received into Rome with great celebration.",
       "hasHymn": true,
-      "hymnIds": ["Verses of the Cymbals", "Gospel Response", "Hymn of the Intercessions", "Praxis Response"]
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response"
+      ]
     }
   ],
-
   "12-13": [
     {
       "name": "Feast of the Transfiguration of Our Lord on Mount Tabor",
       "nameArabic": "",
       "summary": "One of the minor feasts of our Lord. Jesus took Peter, James, and John up Mount Tabor to pray; His face and robe became radiant, and Moses and Elijah appeared speaking with Him of His departure to be accomplished in Jerusalem. Peter offered to build three tabernacles, but a bright cloud overshadowed them and a voice declared, 'This is My beloved Son, in whom I am well pleased. Hear Him,' after which the disciples fell on their faces in fear (Matthew 17:1-8).",
       "hasHymn": true,
-      "hymnIds": ["Verses of the Cymbals", "Doxology for the Transfiguration", "Psalm Response", "Gospel Response"]
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Doxology for the Transfiguration",
+        "Psalm Response",
+        "Gospel Response"
+      ]
     }
   ],
-
   "12-14": [
     {
       "name": "The Great Sign the Lord Manifested During the Papacy of Pope Theophilus",
@@ -160,7 +174,6 @@
       "hasHymn": false
     }
   ],
-
   "12-15": [
     {
       "name": "St. Mary Known as Marina, the Ascetic",
@@ -169,17 +182,20 @@
       "hasHymn": false
     }
   ],
-
   "12-16": [
     {
       "name": "The Assumption of the Body of the Virgin St. Mary to Heaven",
       "nameArabic": "",
       "summary": "Commemorates the revealing of the assumption of the body of St. Mary to heaven. She had departed on the 21st of Tobe, surrounded by the apostles; St. Thomas, absent while preaching in India, arrived after her burial in Gethsemane and was shown her body being taken up by angels. Angelic praises and the aroma of incense surrounded her tomb for three days before her pure body was assumed into heaven.",
       "hasHymn": true,
-      "hymnIds": ["Adam Psali for the Feast of the Revelation of the Assumption of St. Mary's Body", "Watos Psali for the Feast of the Revelation of the Assumption of St. Mary's Body", "The Midnight Doxology for the Virgin", "plus the standard set shared across St. Mary's occasions: Verses of the Cymbals, Doxology, Gospel Response, Hymn of the Intercessions"]
+      "hymnIds": [
+        "Adam Psali for the Feast of the Revelation of the Assumption of St. Mary's Body",
+        "Watos Psali for the Feast of the Revelation of the Assumption of St. Mary's Body",
+        "The Midnight Doxology for the Virgin",
+        "plus the standard set shared across St. Mary's occasions: Verses of the Cymbals, Doxology, Gospel Response, Hymn of the Intercessions"
+      ]
     }
   ],
-
   "12-17": [
     {
       "name": "St. James the Soldier",
@@ -188,7 +204,6 @@
       "hasHymn": false
     }
   ],
-
   "12-18": [
     {
       "name": "St. Alexander, Patriarch of Constantinople",
@@ -197,17 +212,25 @@
       "hasHymn": false
     }
   ],
-
   "12-19": [
     {
       "name": "The Return of the Body of St. Macarius the Great to His Monastery in Scetis",
       "nameArabic": "",
       "summary": "In 793 A.D., during the papacy of Pope Yoannis IV, the body of St. Macarius the Great was returned to his monastery in Scetis (Wadi El Natrun). It had been away since 480 A.D., when it was moved first to Shabsheer and then to Almay, each city building a great church to house it. Pope Yoannis IV, spending the holy forty days at the saint's monastery, expressed his yearning that the body be returned, and it was accomplished that year.",
       "hasHymn": true,
-      "hymnIds": ["Adam Psali (for the church consecration)", "Watos Psali (for the church consecration)", "Adam Psali (for his departure)", "Watos Psali (for his departure)", "Verses of the Cymbals", "Doxology (two versions)", "Gospel Response", "Hymn of the Intercessions", "Glorification/Veneration (Tamgeed, a 25-verse hymn)"]
+      "hymnIds": [
+        "Adam Psali (for the church consecration)",
+        "Watos Psali (for the church consecration)",
+        "Adam Psali (for his departure)",
+        "Watos Psali (for his departure)",
+        "Verses of the Cymbals",
+        "Doxology (two versions)",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Glorification/Veneration (Tamgeed, a 25-verse hymn)"
+      ]
     }
   ],
-
   "12-20": [
     {
       "name": "The Seven Young Men of Ephesus (Seven Sleepers)",
@@ -216,14 +239,18 @@
       "hasHymn": false
     }
   ],
-
   "12-21": [
     {
       "name": "The Commemoration of the Virgin St. Mary, the Mother of God",
       "nameArabic": "",
       "summary": "The monthly commemoration of the Mother of God, the Virgin St. Mary, intercessor of mankind, the chosen queen, the burning bush, the tabernacle, the pot of manna, Aaron's rod, and the Holy of Holies.",
       "hasHymn": true,
-      "hymnIds": ["The Midnight Doxology for the Virgin (the central Theotokia)", "Adam Psali for the Birth of the Virgin", "Adam Psali for the Departure of the Virgin", "plus the standard set shared across St. Mary's occasions: Verses of the Cymbals, Doxology, Gospel Response, Hymn of the Intercessions"]
+      "hymnIds": [
+        "The Midnight Doxology for the Virgin (the central Theotokia)",
+        "Adam Psali for the Birth of the Virgin",
+        "Adam Psali for the Departure of the Virgin",
+        "plus the standard set shared across St. Mary's occasions: Verses of the Cymbals, Doxology, Gospel Response, Hymn of the Intercessions"
+      ]
     },
     {
       "name": "St. Irene (Eirene)",
@@ -232,7 +259,6 @@
       "hasHymn": false
     }
   ],
-
   "12-22": [
     {
       "name": "Micah the Prophet",
@@ -241,7 +267,6 @@
       "hasHymn": false
     }
   ],
-
   "12-23": [
     {
       "name": "The Martyrdom of Thirty Thousand Christians in Alexandria",
@@ -250,7 +275,6 @@
       "hasHymn": false
     }
   ],
-
   "12-24": [
     {
       "name": "St. Thomas, Bishop of Mar'ash (Syria)",
@@ -259,24 +283,36 @@
       "hasHymn": false
     }
   ],
-
   "12-28": [
     {
       "name": "The Patriarchs Abraham, Isaac, and Jacob",
       "nameArabic": "",
       "summary": "Commemorates the holy fathers Abraham, Isaac, and Jacob. Abraham, born in Ur of the Chaldeans to the idol-worshiper Terah, was called by God to leave his country for the land God would show him, with the promise to make him a great nation and a blessing to all families of the earth. He settled in Canaan, was given Isaac in his old age, and was tested by God's command to offer Isaac as a burnt offering on Mount Moriah.",
       "hasHymn": true,
-      "hymnIds": ["Adam Psali", "Watos Psali", "Verses of the Cymbals", "Doxology", "Gospel Response", "Hymn of the Intercessions", "Praxis Response"]
+      "hymnIds": [
+        "Adam Psali",
+        "Watos Psali",
+        "Verses of the Cymbals",
+        "Doxology",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response"
+      ]
     }
   ],
-
   "12-29": [
     {
       "name": "The Commemoration of the Three Major Feasts of the Lord (Joyful 29th)",
       "nameArabic": "",
       "summary": "The monthly commemoration of the three major feasts of the Lord: the Annunciation, the Nativity, and the Resurrection. The liturgy is prayed in the joyful tune, with no strict abstinence or prostrations that day.",
       "hasHymn": true,
-      "hymnIds": ["Verses of the Cymbals", "Doxology (for the Annunciation)", "Psalm Response", "Gospel Response", "plus an extensive weekday Theotokia cycle (Psalis) covering the Annunciation, Nativity, and Resurrection in turn"]
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Doxology (for the Annunciation)",
+        "Psalm Response",
+        "Gospel Response",
+        "plus an extensive weekday Theotokia cycle (Psalis) covering the Annunciation, Nativity, and Resurrection in turn"
+      ]
     },
     {
       "name": "St. Athanasius the Bishop and His Two Servants, Gerasimus and Theodotus",
@@ -285,7 +321,6 @@
       "hasHymn": false
     }
   ],
-
   "12-30": [
     {
       "name": "Malachi the Prophet",
@@ -294,7 +329,6 @@
       "hasHymn": false
     }
   ],
-
   "12-25": [
     {
       "name": "St. Bessarion the Great",
@@ -309,7 +343,6 @@
       "hasHymn": false
     }
   ],
-
   "12-26": [
     {
       "name": "St. Moses (Moisees) and his Sister Sarah",
@@ -318,7 +351,6 @@
       "hasHymn": false
     }
   ],
-
   "12-27": [
     {
       "name": "Sts. Benjamin and his sister Eudoxia",
@@ -327,14 +359,85 @@
       "hasHymn": false
     }
   ],
-
   "_template": [
     {
       "name": "Saint Name (as shown on Coptic Reader)",
       "nameArabic": "",
       "summary": "3-4 sentence summary, written the way you'd want to read it before a service.",
       "hasHymn": true,
-      "hymnIds": ["example-hymn-id"]
+      "hymnIds": [
+        "example-hymn-id"
+      ]
+    }
+  ],
+  "13-1": [
+    {
+      "name": "St. Eutychus",
+      "nameArabic": "",
+      "summary": "A disciple of St. John the Evangelist who was present at the coming of the Holy Spirit on Pentecost. He later took John's permission to join St. Paul in preaching. He is the young man of Acts 20 who fell asleep during Paul's long sermon in Troas, fell from the third-story window and was taken up dead, but Paul embraced him and restored his life, after which Paul continued preaching until daybreak. St. Eutychus went on to preach the gospel and bring many Jews and Gentiles to faith in Christ.",
+      "hasHymn": false
+    }
+  ],
+  "13-2": [
+    {
+      "name": "St. Titus, the Apostle",
+      "nameArabic": "",
+      "summary": "Born in Crete, nephew of the island's governor, learned in Greek language and literature, meek and merciful. Sent by the governor to Palestine to verify reports of Christ, he witnessed the Lord's signs and teachings and believed; Christ chose him among the Seventy Apostles. After the Ascension he received the Holy Spirit with the other disciples and accompanied St. Paul on his missionary journeys, who eventually consecrated him bishop of Crete, where he preached.",
+      "hasHymn": false
+    }
+  ],
+  "13-3": [
+    {
+      "name": "The Archangel Raphael",
+      "nameArabic": "",
+      "summary": "Commemorates the consecration of the church of the honorable Archangel Raphael near Alexandria, during the papacy of Pope Theophilus, 23rd Patriarch. A faithful woman from Rome, who had inherited great wealth from her husband, came with her children and a large icon of Archangel Raphael, desiring to build churches; the Pope showed her a place where she built a church he consecrated on this day in Raphael's name. Raphael, a Hebrew word meaning 'God heals,' is mentioned in the Book of Tobit as the angel who accompanied young Tobit on his successful journey.",
+      "hasHymn": true,
+      "hymnIds": [
+        "Adam Psali",
+        "Watos Psali",
+        "Doxology",
+        "Hymn of the Intercessions",
+        "Praxis Response",
+        "Gospel Response",
+        "Adam Aspasmos"
+      ]
+    }
+  ],
+  "13-4": [
+    {
+      "name": "St. Poimen (Anba Baymon) the Hermit",
+      "nameArabic": "",
+      "summary": "Departed in 460 A.D. Born in 350 A.D. to a godly family with six brothers (John, Job, Joseph, Paisios, James, and Abraham), they forsook the world and lived in seclusion in the wilderness of Shiheet (Scetis) around 390 A.D., dedicated to fasting, prayer, and worship. When Berber raids struck the wilderness in 407, 434, and 444 A.D., he and his brothers relocated repeatedly — to Tarnout, Manf (Memphis), and Upper Egypt — before finally returning to Shiheet. He was discipled under St. Macarius the Great, loved quietness and seclusion, fled vainglory, and ate only from the work of his hands.",
+      "hasHymn": false
+    }
+  ],
+  "13-5": [
+    {
+      "name": "Amos the Prophet",
+      "nameArabic": "",
+      "summary": "One of the twelve Minor Prophets, born in Tekoa, south of Jerusalem, to a poor family. He tended sheep and was a tender of sycamore fruits. He prophesied in the days of Uzziah, king of Judah, and in the days of Jeroboam II, son of Joash, King of Israel, contemporary with the prophet Hosea who succeeded him. God sent him to caution the children of Israel to bear fruits of repentance before the day of vengeance; he prophesied the Lord's Passion, the darkening of the sun at the Crucifixion, and the coming dispersion and sorrow of Israel. He was called 'the prophet of afflictions' for his harsh rebuke of sinners, and prophesied about eight hundred years before the Lord Christ.",
+      "hasHymn": false
+    }
+  ],
+  "1-1": [
+    {
+      "name": "Feast of El-Nayrouz (Coptic New Year)",
+      "nameArabic": "",
+      "summary": "The beginning of the new Coptic year, kept in veneration of the Christian martyrs to immortalize their memory. The Coptic Calendar (Calendar of the Martyrs) began with the reign of Emperor Diocletian in 284 A.D. The Church presents the story of early Christianity, when Christians offered themselves as examples of love, sacrifice, faith, endurance, and love of enemies, teaching that the Christian faith spread through the shedding of the blood of the martyrs alongside preaching and teaching.",
+      "hasHymn": true,
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Doxology for the Coptic New Year",
+        "Psalm Trailer",
+        "Psalm Response",
+        "Gospel Response"
+      ]
+    },
+    {
+      "name": "Pope Marcus V (Mark V), 98th Pope of Alexandria",
+      "nameArabic": "",
+      "summary": "Departed in 1619 A.D. Native of El-Bayadiah (Mallawy, El-Minia Governorate), inclined to the ascetic life from a young age; became a monk at the monastery of St. Macarius in the wilderness of Scetis (Shiheet). After the departure of Pope Gabriel VIII, he was chosen and ordained Patriarch, enthroned Sunday, 26th of Paone, 1319 A.M. (1603 A.D.) at the church of St. Philopateer Mercurius (Abu-Saifain) in Old Cairo. Well educated in ecclesiastical subjects, canons, and laws, he remained steadfast defending the teachings of Scripture amid hardships over the Personal Status Law. He made pastoral visits to Upper Egypt and Jerusalem; his patriarchal seat was at the church of St. Mary in Haret Zewailah. He was buried with great veneration at the monastery of St. Macarius in Scetis.",
+      "hasHymn": false
     }
   ]
 }
