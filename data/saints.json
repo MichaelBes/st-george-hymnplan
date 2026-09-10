@@ -495,10 +495,7 @@
       "name": "Pope Dioscorus I, 25th Pope of Alexandria",
       "nameArabic": "",
       "summary": "Departed in 171 A.M. (454 A.D.). Born in Alexandria and educated in its theological school, his brilliance drew the admiration of St. Cyril I, 24th Patriarch, who appointed him his private secretary; he continued researching the works of the fathers despite the position. Enthroned on the throne of St. Mark on 2 Misra, 160 A.M. (444 A.D.), succeeding Pope Cyril I, the Pillar of Faith, during the reign of Emperor Theodosius II. He presided over the Second Council of Ephesus in August 449 A.D.",
-      "hasHymn": true,
-      "hymnIds": [
-        "Commemorated in the general 'Departed Patriarchs' litany (Index > Papal > Departed Patriarchs), a numbered list of all Popes of Alexandria recited liturgically — Pope Dioscorus is listed as the 25th Pope"
-      ]
+      "hasHymn": false
     }
   ],
   "1-8": [
@@ -516,7 +513,8 @@
       "summary": "Martyred during the reign of Emperor Diocletian. Bishop of the city of Masil (today Meslil, a center of Shebin El-Kom, El-Monufia Governorate). When he learned that Diocletian had apostatized, worshipped idols, and declared persecution against Christians, he gathered his flock, commanded them to remain steadfast in the Orthodox faith, and bid them farewell. Three fellow bishops — Pisikhos, Fanalikhos, and Theodore — agreed to go with him; together they confronted the governor and confessed Christ. The governor tortured them cruelly to make an example of them, and when their faith held firm, ordered their heads cut off, and they received the crowns of martyrdom.",
       "hasHymn": true,
       "hymnIds": [
-        "Confirmed on Index > Saints > Male Martyrs as 'St. Pisura the Bishop' (spelling variant) — has a dedicated hymn set; check there for specific titles"
+        "Adam Psali for the Martyrdom of Abba Pisoura the Bishop",
+        "Watos Psali for the Martyrdom of Abba Pisoura the Bishop"
       ]
     }
   ],
@@ -565,6 +563,14 @@
       "name": "Miracle of St. Basilius (Basil) the Great, Bishop of Caesarea",
       "nameArabic": "",
       "summary": "Commemorates a miracle performed by St. Basil the Great, Bishop of Caesarea, Cappadocia. A young man of Caesarea loved his master’s daughter; unable to marry her, he resorted to a magician, who had him sign a covenant with the devil at midnight in an unbelievers’ cemetery, denying faith in Christ. Satan then kindled lust for the young man in the girl’s heart, and her father gave her in marriage to him. Through her parents’ prayers, God opened the wife’s eyes to realize he was not a true Christian.",
+      "hasHymn": false
+    }
+  ],
+  "1-14": [
+    {
+      "name": "St. Agathon the Stylite",
+      "nameArabic": "",
+      "summary": "Departed in the year 444 of the martyrs (728 A.D.). From the city of Tinnis (an ancient Egyptian city, formerly called Sawan, now in El-Sharqia Governorate); his father was Matra and mother Mariam, both righteous and charitable. He grew up loving God and inclined to monastic life, and was ordained a priest at age 35, devoting himself to perpetual prayer day and night and serving God's people with love and sincerity. He asked Christ to help him leave the world for the desert; an angel appeared to him in the form of a monk and led him to the monastery of St. Macarius the Great in Scetis.",
       "hasHymn": false
     }
   ]
