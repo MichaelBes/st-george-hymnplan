@@ -417,6 +417,18 @@
       "nameArabic": "",
       "summary": "One of the twelve Minor Prophets, born in Tekoa, south of Jerusalem, to a poor family. He tended sheep and was a tender of sycamore fruits. He prophesied in the days of Uzziah, king of Judah, and in the days of Jeroboam II, son of Joash, King of Israel, contemporary with the prophet Hosea who succeeded him. God sent him to caution the children of Israel to bear fruits of repentance before the day of vengeance; he prophesied the Lord's Passion, the darkening of the sun at the Crucifixion, and the coming dispersion and sorrow of Israel. He was called 'the prophet of afflictions' for his harsh rebuke of sinners, and prophesied about eight hundred years before the Lord Christ.",
       "hasHymn": false
+    },
+    {
+      "name": "St. Yoannis XV (John XV), 99th Pope of Alexandria",
+      "nameArabic": "",
+      "summary": "Departed in 1346 A.M. (1629 A.D.), 99th Patriarch of Alexandria. Born in the city of Mallawy to Christian parents who raised him in piety and godliness; became a monk in the monastery of Anba Antonius (St. Anthony), living a righteous monastic life, upright and devoted to reading books and manuscripts. When Pope Marcus V departed, the bishops, priests, and lay leaders (Archons) unanimously chose him for the patriarchate; he was consecrated on the 7th of Thoout, 1336 A.M. (1619 A.D.). Known as 'the just judge' for his strong, impartial character, he was kind to priests, merciful to the needy, and never asked anything of anyone all his life. During his papacy a grave epidemic spread, and he visited his flock in Upper Egypt many times.",
+      "hasHymn": null
+    },
+    {
+      "name": "Anba Barsoum (Parsouma) the Naked (El-Erian)",
+      "nameArabic": "",
+      "summary": "Departed in 1033 of the martyrs (1317 A.D.). Born in Misr (Cairo); his father El-Wageeh was scribe to Queen Shagaret el-Dor. When his parents died his uncle seized his inheritance; Barsoum did not quarrel but forsook the world for the life of a hermit, living outside the city for five years enduring summer heat and winter cold, wearing only hairy sackcloth. He then shut himself in a cave inside the church of St. Mercurius Abu-Safain in Old Cairo for twenty years in ceaseless prayer and fasting, where he tamed a huge serpent through prayer and the sign of the cross. He later lived on the church roof, was later imprisoned and beaten during a persecution, then went to the monastery of El-Shahran (Ma'asaret Helwan), where he continued his asceticism and was visited by rulers seeking his blessing. He departed at age sixty and was buried at El-Shahran, which was later renamed the Monastery of St. Barsoum el-Erian in his honor.",
+      "hasHymn": null
     }
   ],
   "1-1": [
@@ -571,6 +583,32 @@
       "name": "St. Agathon the Stylite",
       "nameArabic": "",
       "summary": "Departed in the year 444 of the martyrs (728 A.D.). From the city of Tinnis (an ancient Egyptian city, formerly called Sawan, now in El-Sharqia Governorate); his father was Matra and mother Mariam, both righteous and charitable. He grew up loving God and inclined to monastic life, and was ordained a priest at age 35, devoting himself to perpetual prayer day and night and serving God's people with love and sincerity. He asked Christ to help him leave the world for the desert; an angel appeared to him in the form of a monk and led him to the monastery of St. Macarius the Great in Scetis.",
+      "hasHymn": false
+    }
+  ],
+  "1-15": [
+    {
+      "name": "St. Stephen the Archdeacon (Translocation of the Body)",
+      "nameArabic": "",
+      "summary": "Commemorates the translocation of the body of St. Stephen the Archdeacon and first Christian martyr. After his martyrdom in Jerusalem, pious men buried his body in a village called Gamaliel near Jerusalem; its location was unknown for about 300 years until St. Stephen appeared to a priest named Lucianus in a vision revealing where his body lay. Bishop John of Jerusalem and two other bishops found the body after a mighty earthquake revealed a coffin, and carried it to Jerusalem with great veneration. Alexander of Constantinople later built a church for him there; years later, Alexander's widow, intending to take her husband's body back to Constantinople, unknowingly carried St. Stephen's coffin instead (realizing it from the sounds of singing coming from within), and it was ultimately enshrined in Constantinople by Emperor Constantine the Great.",
+      "hasHymn": true,
+      "hymnIds": [
+        "Adam Psali for the Relocation of Saint Stephen the Archdeacon's Relics",
+        "Watos Psali for the Relocation of Saint Stephen the Archdeacon's Relics"
+      ]
+    },
+    {
+      "name": "Anba Athanasius El-Quosy",
+      "nameArabic": "",
+      "summary": "Departed; a bright star and bishop, son of the eminent priest and skillful teacher Fr. Saleeb, native of west Kamola. Became a monk at the monastery of the martyr Mar-Boctor (El-Kolah, west of Kamola in Naqada); consecrated bishop of Quos by Pope Youannes X (John), 85th Patriarch, around 1365 A.D., assisted by Anba Timotheos of Ebreem and Abu-Khras of Nubba. Dedicated to preserving the Coptic language, he published an introductory book on interpretation in Bohairic and Sahidic dialects (Kiladet El-Tahreer Fi Elm El-Tafseer), a book on personal and family law, and one on the consecration of Holy Myron; he participated with Pope Gabriel IV in consecrating Holy Myron at St. Macarius monastery in 1374 A.D. He also authored El-Triadon in 1322 A.D., a 734-verse rhymed poem in Coptic Sahidic on religious instruction featuring biblical and church figures, and laid down many canons on marriage, baptism, Myron consecration, priesthood, and other matters. He departed in peace in the city of Quos.",
+      "hasHymn": false
+    }
+  ],
+  "1-16": [
+    {
+      "name": "Consecration of the Church of the Resurrection in Jerusalem",
+      "nameArabic": "",
+      "summary": "In the year 51 of the martyrs (335 A.D.), the church of the Resurrection in Jerusalem was consecrated. After Queen Helena discovered the Holy Cross, she ordered the construction of the church. When the splendid building was finished, Emperor Constantine asked Pope Athanasius, Patriarch of Alexandria, together with the Patriarchs of Constantinople and Antioch, to go to Jerusalem with their bishops; they were received by St. Macarius, Bishop of Jerusalem. They consecrated the church and its altars, and on the following day processed with the Holy Cross around the church and holy places before returning to their countries in peace.",
       "hasHymn": false
     }
   ]
