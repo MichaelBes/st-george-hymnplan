@@ -468,6 +468,12 @@
         "Praxis Response",
         "A Proud Name (additional hymn)"
       ]
+    },
+    {
+      "name": "St. Dasya the Soldier",
+      "nameArabic": "",
+      "summary": "Martyred; one of the soldiers of Arianus, governor of Ansena. A native of the city of Tanda, district of Mallawy, El-Menia Governorate. When he saw the prominence of the Christians and their endurance of tortures before martyrdom, he declared his faith in the Lord Christ. When the governor failed to persuade him to forsake his faith, he ordered him beheaded, and St. Dasya received the crown of martyrdom.",
+      "hasHymn": false
     }
   ],
   "1-3": [
@@ -608,7 +614,33 @@
     {
       "name": "Consecration of the Church of the Resurrection in Jerusalem",
       "nameArabic": "",
-      "summary": "In the year 51 of the martyrs (335 A.D.), the church of the Resurrection in Jerusalem was consecrated. After Queen Helena discovered the Holy Cross, she ordered the construction of the church. When the splendid building was finished, Emperor Constantine asked Pope Athanasius, Patriarch of Alexandria, together with the Patriarchs of Constantinople and Antioch, to go to Jerusalem with their bishops; they were received by St. Macarius, Bishop of Jerusalem. They consecrated the church and its altars, and on the following day processed with the Holy Cross around the church and holy places before returning to their countries in peace.",
+      "summary": "In the year 51 of the martyrs (335 A.D.), the church of the Resurrection in Jerusalem was consecrated. After Queen Helena discovered the Holy Cross, she ordered the church built; when finished, Emperor Constantine asked Pope Athanasius of Alexandria, the Patriarch of Constantinople, and the Patriarch of Antioch to go to Jerusalem with their bishops, where they were received by St. Macarius, Bishop of Jerusalem. They consecrated the church and its altars, and the next day processed with the Holy Cross around the church and holy places before returning to their countries in peace.",
+      "hasHymn": false
+    }
+  ],
+  "1-17": [
+    {
+      "name": "Feast of the Honorable Cross (Commemoration at Church of Resurrection)",
+      "nameArabic": "",
+      "summary": "In 51 of the martyrs (335 A.D.), the Patriarchs of the Christian churches celebrated the Honorable Cross: Pope Athanasius the Apostolic of Alexandria, the Patriarch of Constantinople, the Patriarch of Antioch, and St. Macarius, Patriarch of Jerusalem. They carried the Cross in procession inside the church of Resurrection, offered prayers, celebrated the Divine Liturgies, venerated the Cross, and placed it in a silver vault. The feast also coincides with the appearance of the sign of the Cross to Emperor Constantine the Great in 312 A.D., on his way to fight the tyrant Maxentius; he saw the sign in the sky with his officers and soldiers, a light brighter than the sun, with the words 'With this sign you shall conquer' written beneath it.",
+      "hasHymn": true
+    },
+    {
+      "name": "St. Theognosta",
+      "nameArabic": "",
+      "summary": "Departed during the reign of Emperors Honorius and Arcadius. She lived in a convent near Rome and was taken captive by the men of the ruler of El-Raha, who gave her as a maidservant to his wife. She served with joy, was made head of the palace maidservants, and lived a life devoted to prayer and asceticism. She healed the ruler's son through prayer and was freed; later healed the ruler's wife, and guided the lost ruler back to the city by a light in the shape of the cross. This led the people to ask for a priest; Theophanius was sent, preached the faith until all believed, and was ordained bishop for El-Raha. St. Theognosta served the women and taught them the faith until her peaceful departure after a short illness.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Castor, the Presbyter",
+      "nameArabic": "",
+      "summary": "Martyred during the reign of Emperor Diocletian in the fourth century. Born in the village of Bardanouha, Upper Egypt, to Christian parents; ordained a reader, then married and ordained presbyter for his village church, shepherding his people with great care. He had a son Afraham and a daughter Dermoudah. When Diocletian incited persecution, Fr. Castor went about confirming the faithful, visiting imprisoned Christians in el-Kais to strengthen them. Seized when the governor learned of this, he was tortured but the Lord comforted and healed him; he was then sent to the governor of Old Cairo, Kelkianus, for further torture, during which many miracles were manifested, and finally sent to the Governor of Alexandria who also tortured him.",
+      "hasHymn": false
+    },
+    {
+      "name": "El-Moallem (Master) Girgis el-Gohari",
+      "nameArabic": "",
+      "summary": "Departed in 1557 of the martyrs (1810 A.D.). One of the famous Copts of the late 18th and early 19th centuries, brother of El-Moallem Ibrahim El-Gohari; he was raised and educated alongside his brother in the Kuttab (training school) for head scribes of Egypt. He held the position of head of El-Mobashereen after his brother's departure, serving under four different periods: the Mamalik, the French expedition, the Turks, and the beginning of Muhammad Ali Pasha's reign. Generous in giving, he donated much to the poor, needy, churches, and monasteries, and supported Pope Marcus VIII (Mark VIII) in building the great St. Mark church in el-Azbakiya and the adjacent Patriarchal residence. Pope Mark VIII appointed him administrator for many churches in Cairo and Old Cairo. He fell ill later in life and departed in peace, buried beside his brother near the church of St. George in Darb-El-Taqa, Old Cairo.",
       "hasHymn": false
     }
   ]
