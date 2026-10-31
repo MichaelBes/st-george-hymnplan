@@ -79,6 +79,49 @@
       ],
       "lyricsLink": "",
       "versesFile": "data/verses/in-the-midst-of-the-raging-sea.txt"
+    },
+    {
+      "id": "the-burning-bush",
+      "title": "The Burning Bush",
+      "category": "Communion",
+      "language": "English / Arabic",
+      "tags": [
+        "Communion",
+        "Theotokos"
+      ],
+      "lyricsLink": "",
+      "slides": [
+        "data/slides/burning-bush/01.png",
+        "data/slides/burning-bush/02.png",
+        "data/slides/burning-bush/03.png",
+        "data/slides/burning-bush/04.png",
+        "data/slides/burning-bush/05.png",
+        "data/slides/burning-bush/06.png",
+        "data/slides/burning-bush/07.png",
+        "data/slides/burning-bush/08.png",
+        "data/slides/burning-bush/09.png",
+        "data/slides/burning-bush/10.png",
+        "data/slides/burning-bush/11.png",
+        "data/slides/burning-bush/12.png",
+        "data/slides/burning-bush/13.png",
+        "data/slides/burning-bush/14.png",
+        "data/slides/burning-bush/15.png",
+        "data/slides/burning-bush/16.png",
+        "data/slides/burning-bush/17.png",
+        "data/slides/burning-bush/18.png",
+        "data/slides/burning-bush/19.png",
+        "data/slides/burning-bush/20.png",
+        "data/slides/burning-bush/21.png",
+        "data/slides/burning-bush/22.png",
+        "data/slides/burning-bush/23.png",
+        "data/slides/burning-bush/24.png",
+        "data/slides/burning-bush/25.png",
+        "data/slides/burning-bush/26.png",
+        "data/slides/burning-bush/27.png",
+        "data/slides/burning-bush/28.png",
+        "data/slides/burning-bush/29.png",
+        "data/slides/burning-bush/30.png"
+      ]
     }
   ]
 }
