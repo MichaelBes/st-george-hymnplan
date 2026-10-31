@@ -446,3 +446,13 @@ input[type="text"], select {
 .slide-mode.verse-mode #verse-title { display: block; top: calc(env(safe-area-inset-top) + 18px); left: 0; right: 0; text-align: center; font-size: clamp(1.4rem, 3vw, 2.4rem); letter-spacing: .04em; }
 .slide-mode.verse-mode #verse-end { right: 28px; bottom: calc(env(safe-area-inset-bottom) + 22px); font-size: clamp(1.1rem, 2.4vw, 1.8rem); font-style: italic; }
 .slide-mode:not(.verse-mode) #verse-end { display: none !important; }
+
+/* ---------- Service date bar & sync ---------- */
+.service-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 14px; }
+.service-bar label { font-size: 0.9rem; color: var(--ink); display: flex; align-items: center; gap: 8px; }
+.service-bar input[type="date"] { padding: 8px 10px; font-size: 1rem; }
+.sync-status { font-size: 0.8rem; color: #5a6b5a; flex: 1; min-width: 120px; }
+.sync-status.bad { color: var(--red); }
+.row-actions { display: flex; gap: 6px; align-items: center; }
+.row-actions .move { min-width: 40px; }
+button.ghost { background: transparent; border: 1px solid var(--ink); color: var(--ink); padding: 8px 14px; border-radius: 8px; font-size: 0.9rem; }
