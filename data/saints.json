@@ -6,6 +6,12 @@
       "nameArabic": "",
       "summary": "Martyred in 304 A.D., St. Apoli was a horseman and courageous commander, and crown prince of the Roman Empire, son of Emperor Numerianus. Returning from war to find Diocletian had abandoned the faith and revived pagan worship, Apoli confessed Christ along with his parents Justus and Theoclia and was martyred with them in Alexandria.",
       "hasHymn": false
+    },
+    {
+      "name": "Pope Kyrillos V (Cyril), 112th Patriarch of Alexandria",
+      "nameArabic": "",
+      "summary": "Born in the village of Tazmant, near the city of Beni Suef, to devout parents who named him John and brought him up with a Christian upbringing, Kyrillos inclined from his young age to quietness, contemplation, and studying the Holy Bible. He went on to a monastic and patriarchal life of service to the Church, shepherding it as the 112th Patriarch of Alexandria. He departed in 1927 A.D., concluding a life devoted to prayer, Scripture, and the service of his flock.",
+      "hasHymn": false
     }
   ],
   "12-2": [
@@ -88,6 +94,18 @@
       "nameArabic": "",
       "summary": "God sent the angel Gabriel to announce to St. Joachim the birth of the Virgin Theotokos, St. Mary. Joachim and his wife Anna (Hannah), both from the tribe of Judah and house of David, had been barren for thirty-one years and vowed that if given a child they would dedicate them to the Lord as Samuel was. Gabriel announced that their offspring would bring salvation to the world, and Anna conceived and bore the pure Virgin Mary.",
       "hasHymn": false
+    },
+    {
+      "name": "Pope Timothy II (Timotheos), 26th Patriarch of Alexandria",
+      "nameArabic": "",
+      "summary": "A monk and a staunch defender of the Orthodox faith, Timothy succeeded St. Dioscorus on the See of Alexandria as the 26th Patriarch. He shepherded his flock through a troubled period, remaining steadfast under persecution and exile for the faith. He departed in peace in 477 A.D., after a patriarchate marked by firm defense of Orthodoxy and care for his people.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Pisentius (Pisentios), Bishop of Qift",
+      "nameArabic": "",
+      "summary": "A monk known for asceticism, humility, and love, Pisentius was chosen bishop of Qift for his virtues. He shepherded his flock with great care, teaching and comforting them, and was known for miracles and for his spiritual counsel. He departed in peace after a godly and virtuous life of service as bishop of Qift.",
+      "hasHymn": false
     }
   ],
   "12-8": [
@@ -111,6 +129,12 @@
       "name": "St. Pihebs (Bekhibs)",
       "nameArabic": "",
       "summary": "A soldier from Ashmoon Tanah under the command of Prince Antiochus, Pihebs was summoned along with Anba Klog the bishop, Anba Nehru, and Anba Phillip when it was learned he was Christian. All confessed their faith and were tortured; Pihebs was bound and sent by ship to el-Baramoon, enduring 27 days without food or drink before being severely tortured and finally hacked with a cleaver, receiving the crown of martyrdom. A Christian man retrieved his body and returned it to his hometown.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Matra",
+      "nameArabic": "",
+      "summary": "Martyred in 250 A.D., during the papacy of Pope Demetrius, 12th Patriarch of Alexandria, and in the days of Emperor Decius, Matra heard the emperor's edict dictating the worship of idols and cut off the arm of the idol Apollo, which was made of pure gold, cut it into pieces, and gave them to the poor. He then went and confessed before the governor that he was the one who had done this, and they tortured him greatly and cast him into the fire, but the angel of the Lord saved him. They then cut off his hands and legs after crucifying him on a tree, and a blind man who smeared his eyes with the saint's blood regained his sight. Finally they beheaded Matra, and he received the crown of martyrdom.",
       "hasHymn": false
     }
   ],
@@ -168,9 +192,9 @@
   ],
   "12-14": [
     {
-      "name": "The Great Sign the Lord Manifested During the Papacy of Pope Theophilus",
+      "name": "The Commemoration of the Great Sign which the Lord performed for the holy Cross",
       "nameArabic": "",
-      "summary": "Commemorates a miracle during the papacy of Pope Theophilus, 23rd Patriarch of Alexandria: a wealthy Jewish man named Philoxinus lived in Alexandria alongside two poor Christian men. When one questioned why the faithful remained poor while an unbeliever prospered, the other explained that worldly riches are not a sign of God's favor. The story illustrates that true faith is tested apart from material wealth — a teaching narrative rather than a saint's biography.",
+      "summary": "Commemorated during the papacy of Pope Theophilus, 23rd Patriarch of Alexandria, this sign concerns a wealthy Jewish man in Alexandria named Philoxinus, who had two poor Christian friends, one of whom remained unconvinced of the Christian faith. That friend went to Philoxinus and adopted his faith, and the ruler of the synagogue then had a cross made of wood, before which the apostate repeatedly denied Christ. The cross was then beaten with a reed, given a sponge of vinegar, spat upon, and pierced with a spear, and blood and water flowed from it. The apostate then dropped dead and became dried up like a rock, which struck fear into those present and led many to believe, saying that they believed in the Lord Christ, the true God.",
       "hasHymn": false
     }
   ],
@@ -180,6 +204,19 @@
       "nameArabic": "",
       "summary": "An 8th-century saint born Mary to a wealthy Christian father, Euganius, and pious mother, Sarah, in Bithynia, Asia Minor. When her father wished to remarry her off but instead chose monastic life himself, she refused to be left behind, cut her hair, donned men's clothing, and joined him at the monastery disguised as his 'son' Marina. She lived for years undetected among the monks, her gentle voice attributed to her ascetic discipline, persevering in prayer and fasting until her father's death, after which she continued the monastic life as 'the monk Marina.'",
       "hasHymn": false
+    },
+    {
+      "name": "The Saintly Archdeacon Habib Girgis",
+      "nameArabic": "",
+      "summary": "Coptic Reader lists the departure of the saintly Archdeacon Habib Girgis on this day, but the Synaxarion page as checked gives this heading with no further narrative about him, so no life, place, or circumstances of his departure can be recorded from Coptic Reader for this entry.",
+      "hasHymn": true,
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Doxology for St. Habib Girgis",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response"
+      ]
     }
   ],
   "12-16": [
@@ -194,6 +231,12 @@
         "The Midnight Doxology for the Virgin",
         "plus the standard set shared across St. Mary's occasions: Verses of the Cymbals, Doxology, Gospel Response, Hymn of the Intercessions"
       ]
+    },
+    {
+      "name": "Pope Matthew IV (Mattheos), 102nd Patriarch of Alexandria",
+      "nameArabic": "",
+      "summary": "Born in the city of Meer to pious Christian parents, Matthew was raised in a true Christian upbringing, taught church subjects, and later became a monk at the monastery of St. Mary known as El-Baramos in the wilderness of Scetis, where he lived a righteous and ascetic monastic life. After Pope Mark VI departed, bishops, priests, and lay leaders unanimously chose him, and he was consecrated in 1660 A.D. in a splendid celebration attended by many from other Christian denominations. He remained meek and largely monastic in his way of life, was merciful to the poor, widows, orphans, and prisoners, cared for the monks and their monasteries, ordained two successive metropolitans for the Ethiopian church, and moved the patriarchal residence from Haret Zowaila to Haret el-Rom in 1660 A.D. After suffering many hardships with patience and prayer, he departed in peace in 1675 A.D., after sitting on the apostolic throne for fourteen years, eight months, and nine days, and was buried in the tomb of the patriarchs in the church of Abu Safain in Old Cairo.",
+      "hasHymn": false
     }
   ],
   "12-17": [
@@ -209,6 +252,12 @@
       "name": "St. Alexander, Patriarch of Constantinople",
       "nameArabic": "",
       "summary": "Departed in 336 A.D., an honorable scholar who suffered many hardships opposing the Arian heresy. When St. Athanasius the Apostolic renewed the excommunication of Arius, Emperor Constantine pressured St. Alexander to readmit Arius to communion, but Alexander firmly replied that only the universal council which stripped Arius of his rank could restore it. St. James, Bishop of Nisibis, joined him in prayer that the Lord would keep this danger from the Church.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Eudaemon, of Armant (El-Armanti)",
+      "nameArabic": "",
+      "summary": "Eudaemon, of the city of Armant, was martyred after hosting idol worshipers in his house who spoke of a lady who had arrived in the city of Ashmonain carrying a young Child who looked like the children of kings. After they left, he rode his donkey to Ashmonain, searched for the holy family, found the Child Jesus with His mother Mary, and worshiped Him, and the Child told him that He would stay in Eudaemon's home, which would be a house for Him forever, and that when Eudaemon returned home the heathen would be indignant, hurt him, and shed his blood in his house, but that he should not fear, because he would be received into the heavenly kingdom and would be the first martyr in Upper Egypt. Eudaemon knelt before the Lord Christ, who blessed him, and returned home, where the news of his visit spread and the heathen hurried to him and asked whether what was said about him was true; when he confirmed that he had gone to the Lord Christ, they drew their swords and slew him, so he received the crown of martyrdom that day. After paganism was abolished and Christianity spread, Christians converted his house into a church for the Virgin St. Mary and her Son, called el-Gishouna, meaning 'The church of the living,' in the outskirts of Armant, and there was another church named for the Virgin St. Mary and the martyred Eudaemon in el-Ashmonain in Mallawy.",
       "hasHymn": false
     }
   ],
@@ -265,6 +314,19 @@
       "nameArabic": "",
       "summary": "Departed in 696 B.C.: a righteous Old Testament prophet from the tribe of Judah, born in Moresheth Gath and called Micah el-Morashti. A quiet, wise, and compassionate poet, he prophesied for about sixty years during the reigns of Jotham, Ahaz, and Hezekiah, kings of Judah, contemporary with the prophet Isaiah. He foretold the destruction of Samaria and Jerusalem, called the people to repentance, and prophesied the return of God's mercy.",
       "hasHymn": false
+    },
+    {
+      "name": "St. Augustine, Bishop of Hippo",
+      "nameArabic": "",
+      "summary": "Born in Thagaste in 354 A.D. to a pagan father, Patricius, and a devout Christian mother, St. Monica, who taught him Christian principles in childhood, Augustine studied at home and then in Carthage, lived in sin and immorality, and traveled to Rome and then Milan, where he became a teacher of rhetoric. His mother followed him to Milan and prayed fervently, and Bishop Ambrose comforted her that the son of these tears would not perish; meeting Ambrose, reading the Bible, and reading St. Athanasius's Life of Anba Antonius awakened his conscience, and he confessed to Ambrose, prepared in seclusion outside Milan, and was baptized by Ambrose in 387 A.D. He returned to Thagaste, sold his possessions and gave them to the poor, went to Hippo, lived in asceticism and worship, gathered disciples, established a monastery, and became a father and guide of monasticism. Ordained priest in 389, consecrated auxiliary bishop in 395, and succeeding as bishop in 396 at age forty-one, he served with pastoral care, compassion for the poor and needy, and a call to repentance, consecrated an auxiliary bishop at age seventy-two to assist him, and departed in peace at age seventy-six in 430 A.D., after a long illness, leaving a rich spiritual heritage and profound writings.",
+      "hasHymn": true,
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Doxology for St. Monica and St. Augustine",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response"
+      ]
     }
   ],
   "12-23": [
@@ -272,6 +334,12 @@
       "name": "The Martyrdom of Thirty Thousand Christians in Alexandria",
       "nameArabic": "",
       "summary": "Commemorates a massacre following the exile of Pope Dioscorus, 25th Patriarch of Alexandria, by Emperor Marcianus to the island of Gagra. The Chalcedonian Brotarius was appointed patriarch in his place, but the Egyptian bishops refused fellowship with him and convened a council rejecting the Council of Chalcedon and the Tome of Leo. Brotarius, enraged, used government forces to plunder monasteries and churches, growing wealthy, until thieves killed him in the night; the Chalcedonians blamed the followers of Dioscorus, and the furious Emperor sent soldiers who killed about thirty thousand Christians in Alexandria.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Demian in Antioch",
+      "nameArabic": "",
+      "summary": "Demian went and confessed the Lord Christ before the governor of Antioch when persecution was incited against the Christians. He was tortured severely, but God healed, comforted, and strengthened him under torment. When the governor grew weary of torturing him, he ordered him beheaded, and Demian thus received the crown of martyrdom.",
       "hasHymn": false
     }
   ],
@@ -281,6 +349,21 @@
       "nameArabic": "",
       "summary": "An ascetic worshiper diligent in fasting and prayer, merciful to the poor and needy, consecrated bishop of Mar'ash in Syria for his devoted shepherding. When Diocletian incited persecution against Christians, the governor summoned Thomas and demanded he worship idols; upon his refusal he was severely tortured, had organs dismembered one at a time, and was cast into an abandoned prison for twenty-two years — his congregation presuming him dead — sustained secretly at night by a faithful woman through a small opening in the prison wall, until Emperor Constantine ordered the release of imprisoned Christians.",
       "hasHymn": false
+    },
+    {
+      "name": "St. Takla Haymanot, the Ethiopian",
+      "nameArabic": "",
+      "summary": "One of the seventh-century saints, Takla Haymanot was born in Ethiopia to a priestly family that had relocated from a village nearby Jerusalem; his parents were righteous and merciful to the poor and needy, and his mother, who was barren, entreated God often for a son who would please Him, until the Archangel Michael announced that she would conceive and bring forth a son loved by God, the angels, and people. She raised him with a Christian upbringing from childhood; at seven he began memorizing the Holy Books, and at fifteen Anba Kyrillos the bishop ordained him a deacon, then a priest by the name Takla Haymanot, and he was celibate. After his parents' departure he distributed all his possessions to the poor and needy, wandered about Ethiopia preaching the name of the Lord Christ, and many believed at his hands, joining an ascetic life to his evangelical work, spending almost all of the holy forty-day fast in austere asceticism in the wilderness, then returning to ministry. He continued for about fifty years moving from place to place, living among monks in worship and asceticism and at other times among the people in service and evangelism, and God granted him the gift of performing miracles and healing the sick, while he endured many hardships from the heathen. When his departure drew near, the Lord Christ appeared to him, bid him peace, and informed him of the time of his departure; he gathered the brethren, commanded them to adhere closely to the spiritual struggle of the Holy Fathers who followed monasticism until they resembled angels while still on earth, blessed them, departed in peace, and was buried with great veneration.",
+      "hasHymn": true,
+      "hymnIds": [
+        "Adam Psali for the Departure of Saint Takla Haymanot the Ethiopian",
+        "Watos Psali for the Departure of Saint Takla Haymanot the Ethiopian",
+        "Verses of the Cymbals",
+        "Doxology for St. Takla Haymanout",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response"
+      ]
     }
   ],
   "12-28": [
@@ -349,6 +432,12 @@
       "nameArabic": "",
       "summary": "Martyred in 250 A.D., these two siblings were born to wealthy Christian parents in Alexandria. After their parents' death, Moses gave away all their possessions to the poor rather than marry, and took his sister to a convent of virgins while he withdrew to a nearby mountain in seclusion, the two not seeing each other for ten years, before their eventual martyrdom.",
       "hasHymn": false
+    },
+    {
+      "name": "St. Agabius, the Soldier, and his Sister Thecla",
+      "nameArabic": "",
+      "summary": "Agabius the Soldier and his pious sister Thecla were martyred during the reign of Emperor Julian, who incited persecution against the Christians. They went and confessed the Lord Christ before him, and he tortured them much for their confession. He then cast them to the lions, and thus they received the crowns of martyrdom.",
+      "hasHymn": false
     }
   ],
   "12-27": [
@@ -356,6 +445,12 @@
       "name": "Sts. Benjamin and his sister Eudoxia",
       "nameArabic": "",
       "summary": "Two siblings born in Shabsheer, Egypt, to pious Christian parents devoted to hospitality and asceticism. Benjamin, longing to shed his blood for Christ, confessed his faith before the governor of Shatanof and was tortured and imprisoned; his sister Eudoxia refused to be separated from him, choosing to die with him rather than leave his side. Both were martyred together after the governor bound them with heavy stones and threw them into the river, from which they were miraculously freed by an angel before ultimately winning their crowns of martyrdom.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Mary, the Armenian",
+      "nameArabic": "",
+      "summary": "Mary the Armenian was a captive of a Moslem soldier of King Zaher Baibars, the Sultan of Egypt, who asked her to deny her faith in the Lord Christ, but she did not hearken to him and confessed that she was Christian. He tortured her severely, but the Lord strengthened and comforted her, and when he became weary of torturing her, he informed el-Sultan, who brought her and asked her to abandon her faith. She did not listen to him and remained steadfast in confessing her Christian faith, so the Sultan ordered her to be burned alive in a blazing pit by Zoweila's gate in Cairo. While they were throwing her in the pit she was saying that it was good that she delivered up her soul in the hands of her Master, Lord, and Savior Jesus Christ, and thus she received the crown of martyrdom.",
       "hasHymn": false
     }
   ],
@@ -376,6 +471,12 @@
       "nameArabic": "",
       "summary": "A disciple of St. John the Evangelist who was present at the coming of the Holy Spirit on Pentecost. He later took John's permission to join St. Paul in preaching. He is the young man of Acts 20 who fell asleep during Paul's long sermon in Troas, fell from the third-story window and was taken up dead, but Paul embraced him and restored his life, after which Paul continued preaching until daybreak. St. Eutychus went on to preach the gospel and bring many Jews and Gentiles to faith in Christ.",
       "hasHymn": false
+    },
+    {
+      "name": "St. Pishay (Abshai), the Antiochian",
+      "nameArabic": "",
+      "summary": "Pishay, the brother of St. Abba Or, was a native of the city of Antioch and, because of his piety and knowledge, was ordained a priest. His brother Abba Or and his mother went to Alexandria, where they received the crowns of martyrdom, and Pishay gave all his possessions to the poor and the needy and came to Alexandria to see their bodies and receive their blessings. When he saw the two bodies, he wept, then went to the governor and confessed the Lord Christ before him, and the governor tortured him much until he delivered up his pure soul. The governor then ordered his body burned along with the bodies of his brother, his mother, and eighty-eight other martyrs, yet the fire did not harm them, and some believers came, took the bodies of the saints, shrouded them, and buried them with great veneration.",
+      "hasHymn": null
     }
   ],
   "13-2": [
@@ -401,6 +502,18 @@
         "Gospel Response",
         "Adam Aspasmos"
       ]
+    },
+    {
+      "name": "Sts. Andrianus and his companions",
+      "nameArabic": "",
+      "summary": "Andrianus, one of the commanders of the army of the emperor, was martyred after seeing martyrs enduring tortures and asking them why they did so to themselves; they answered that it was for the sake of their hope of eternal life and the everlasting kingdom, until his heart became inflamed with the love of Christ and of eternal life. He went to the emperor and confessed the Lord Christ before him, and the emperor tortured him much and then imprisoned him with many of the martyrs. His wife Anatolia cut off her hair, dressed in the garb of men, came to the prison, and strengthened, comforted, and consoled her husband as she ministered also to the other martyrs. After a series of tortures, Andrianus was martyred along with all who were with him, and they received the crowns of martyrdom, and some believers relocated the pure bodies to Pisidia.",
+      "hasHymn": null
+    },
+    {
+      "name": "Pope Yoannis XIV, 96th Patriarch of Alexandria",
+      "nameArabic": "",
+      "summary": "Born in Manfalut to Christian parents who raised him with a true Christian upbringing, Yoannis longed when he grew to live the ascetic life of the monks, went and became a monk at El-Baramous monastery, and lived an honorable life. After the departure of Pope Gabriel VII, he was chosen for the patriarchate and consecrated in 1571 A.D. by the name Pope Yoannis XIV. During his papacy he suffered many hardships because el-sultan levied on him an excessive tax, which he exerted great effort in collecting from the people, traveling around the land visiting his children and collecting the levied tax; during his days the government also issued a decree for Christians to wear black turbans instead of the blue ones, and the Pope of Rome renewed efforts to join the Coptic Church to the Catholic Church when he saw the hardships of the Copts, but his attempts failed. In one of his pastoral visits he went to Alexandria, and on his way back felt weak and ill at the city of El-Nahrawiah, departed there in peace, and was buried at the Church of St. George in Birma, after sitting on the apostolic throne for fifteen years, four months, and nineteen days; his body was later relocated to the monastery of St. Mary known as Dair el-Saurian in the wilderness of Shiheet.",
+      "hasHymn": null
     }
   ],
   "13-4": [
@@ -589,13 +702,13 @@
       "name": "St. Zacharias the Priest",
       "nameArabic": "",
       "summary": "Zacharias was a priest serving in the temple, the husband of Elizabeth and father of John the Baptist. In their old age the angel Gabriel told him that Elizabeth would bear John, and after the child's birth Zacharias confirmed his name. When Herod's soldiers sought the infant, Zacharias refused to reveal where John was hidden, and the soldiers killed him between the altar and the temple.",
-      "hasHymn": null
+      "hasHymn": false
     },
     {
       "name": "St. Dimides (Diomede), the Presbyter",
       "nameArabic": "",
       "summary": "Dimides was a presbyter living in the time of the persecutions against Christians. He was seized for refusing to sacrifice to idols, and he was tortured for his refusal. Remaining steadfast in his faith, he was beheaded and received the crown of martyrdom.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-9": [
@@ -613,7 +726,7 @@
       "name": "Sts. Pilus and Nylios",
       "nameArabic": "",
       "summary": "Pilus and Nylios were Christians in Upper Egypt during the persecution of the Church. They were seized and tortured for refusing to deny Christ, and they remained steadfast under torment. They were beheaded together, receiving the crown of martyrdom.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-10": [
@@ -627,13 +740,13 @@
       "name": "St. Matruna",
       "nameArabic": "",
       "summary": "Matruna was raised in a Christian home, but as she grew up life forced her to work as a maid-servant in the home of a Jewish lady. Her mistress tried to entice her to adopt the Jewish religion, but Matruna would not yield, so her mistress humiliated, ill-treated, and over-burdened her with servitude. One day her mistress imprisoned her in a dark room for four days without food or drink, then took her out, beat her painfully, and returned her to imprisonment. There she died, receiving the crown of martyrdom for her steadfastness in the faith.",
-      "hasHymn": null
+      "hasHymn": false
     },
     {
       "name": "Sts. Basin and Her Three Children",
       "nameArabic": "",
       "summary": "Coptic Reader lists the commemoration of Sts. Basin and her three children on this day, but the Synaxarion page as checked gives this heading with no further narrative about them, so no life, place, or manner of death can be recorded from Coptic Reader for this entry.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-11": [
@@ -641,13 +754,13 @@
       "name": "St. Basilides (Wasilides), the Minister",
       "nameArabic": "",
       "summary": "Martyred during the reign of Emperor Diocletian. A member of the cabinet and counselor during the reign of Emperor Numerianus, who married Basilides' sister; Basilides had two sons, Eusabius and Macarius. When the Persians waged war against Rome, Numerianus sent his son Yustus to fight them, and was later killed by his in-law Arrius Aper; Diocletian, Numerianus' servant, rose up, killed Arrius, and was proclaimed Emperor in Antioch in 284 A.D. Diocletian later renounced Christ, worshipped idols, and on 23 February 303 A.D. issued his edict of persecution, beginning by eliminating the royal family; he sent Basilides to Masrus, governor of the Five Western Cities (Pentapolis), who tortured him severely.",
-      "hasHymn": null
+      "hasHymn": false
     },
     {
       "name": "The Three Farmers in Esna",
       "nameArabic": "",
       "summary": "Three farmers from Esna in Upper Egypt confessed Christ during the persecution of the Church. They were seized and tortured for refusing to sacrifice to idols, and they would not waver in their faith. They were beheaded together, receiving the crown of martyrdom.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-12": [
@@ -685,7 +798,7 @@
       "name": "Pope Mettaos II (Matthew II), 90th Patriarch of the See of St. Mark",
       "nameArabic": "",
       "summary": "Formerly Matta El-Sa'idy, Mettaos was a monk of the Monastery of St. Mary, El-Muharraq, and was chosen after Pope Youannes XI, the 89th Patriarch, being consecrated in 1452 A.D. during the days of Sultan Fakhr-El-Deen Othman. He resided at the ancient church of St. Mary in Haret Zeewailah in Old Cairo, ordained Anba Gabriel as metropolitan for Ethiopia, and made the Holy Myron at the Church of the Holy Virgin in Haret El-Roum, Cairo, with six bishops. He sat on the throne of St. Mark for thirteen years in peace and tranquility, departed in peace in 1465 A.D., and was buried in Dair El-Khandaq, nowadays known as Dair El-Anba-Rewis.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-14": [
@@ -699,7 +812,7 @@
       "name": "Sts. Felix and Regula, his Sister, and St. Exuperantius",
       "nameArabic": "",
       "summary": "Felix, his sister Regula, and Exuperantius were from Thebes in Upper Egypt; Felix and Exuperantius joined the Theban Legion headed by St. Maurice, and Regula accompanied her brother Felix. After Maurice advised the steadfast legion to leave Agaunum, they went to Zurich spreading the Christian faith, while Emperor Maximian ordered the whole legion slain and its associates pursued. The governor seized the three, who confessed Christ and their association with Maurice, and tortured them severely without making them waver, including Regula's healing after being placed in boiling wax and forced to drink melted lead. They were then ordered beheaded, after which they stood, carried their heads in their hands, walked about twenty-eight yards, knelt, and fell again; they were shrouded and buried, churches were built for them in Zurich, and part of their relics was later transferred in 1610 A.D. to the Church of Sts. Peter and Paul in Andermatt, Switzerland.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-15": [
