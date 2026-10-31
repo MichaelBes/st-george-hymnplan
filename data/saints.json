@@ -164,7 +164,7 @@
       ]
     },
     {
-      "name": "King Constantine and Queen Helen",
+      "name": "The Commemoration of the Reign of Emperor Constantine, in Rome",
       "nameArabic": "",
       "summary": "Commemorates the enthronement of Emperor Constantine the Great in Rome in 306 A.D. After his father Constantius Chlorus died, Constantine became emperor and abolished injustice throughout his realm. When the nobles of Rome asked for deliverance from the tyrant Maxentius, Constantine saw a cross in the sky with the words 'With this sign you will conquer,' defeated Maxentius at the Milvian Bridge in 312 A.D., and was received into Rome with great celebration.",
       "hasHymn": true,
@@ -402,6 +402,19 @@
       "nameArabic": "",
       "summary": "Martyred in 303 A.D. St. Athanasius the bishop was an honorable, zealous man of the Christian faith. Accused before Arianus the Governor of having baptized the daughter of the chancellor Antonius, he was arrested and endured many torments, remaining steadfast in his confession until he provoked the governor's wrath along with his two faithful servants, Gerasimus and Theodotus, who were martyred with him.",
       "hasHymn": false
+    },
+    {
+      "name": "The Arrival of the Relic of St. John, the Short, to the Wilderness of Scetis",
+      "nameArabic": "",
+      "summary": "In 804 A.D., during the papacy of Pope Yoannis IV, 48th Patriarch of Alexandria, the body of the great saint Anba John the Short was relocated from el-Qulzum on the Red Sea to the wilderness of Shiheet. An Arab prince appointed in charge of Al-Qulzum was a friend of Anba Michael the bishop; the Patriarch wrote to the bishop expressing his wish to relocate the body of St. John, and the bishop informed the prince of the Patriarch's wish. Monks of the wilderness of Scetis came in Arab attire over their monastic garments, entered el-Qulzum to the place where the body was, carried the body, and walked all night until they came to the monastery of St. Macarius the Great, where the monks met him with songs and hymns. After receiving the blessing from the body, they carried him to his own monastery, where they placed him with great veneration, and when the monastery of St. John the Short was ruined, the monks moved the body back to the monastery of St. Macarius and placed it along with the bodies of the three Macarii until this day.",
+      "hasHymn": true,
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Doxology for St. John the Short",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response"
+      ]
     }
   ],
   "12-30": [
@@ -476,7 +489,7 @@
       "name": "St. Pishay (Abshai), the Antiochian",
       "nameArabic": "",
       "summary": "Pishay, the brother of St. Abba Or, was a native of the city of Antioch and, because of his piety and knowledge, was ordained a priest. His brother Abba Or and his mother went to Alexandria, where they received the crowns of martyrdom, and Pishay gave all his possessions to the poor and the needy and came to Alexandria to see their bodies and receive their blessings. When he saw the two bodies, he wept, then went to the governor and confessed the Lord Christ before him, and the governor tortured him much until he delivered up his pure soul. The governor then ordered his body burned along with the bodies of his brother, his mother, and eighty-eight other martyrs, yet the fire did not harm them, and some believers came, took the bodies of the saints, shrouded them, and buried them with great veneration.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "13-2": [
@@ -507,13 +520,13 @@
       "name": "Sts. Andrianus and his companions",
       "nameArabic": "",
       "summary": "Andrianus, one of the commanders of the army of the emperor, was martyred after seeing martyrs enduring tortures and asking them why they did so to themselves; they answered that it was for the sake of their hope of eternal life and the everlasting kingdom, until his heart became inflamed with the love of Christ and of eternal life. He went to the emperor and confessed the Lord Christ before him, and the emperor tortured him much and then imprisoned him with many of the martyrs. His wife Anatolia cut off her hair, dressed in the garb of men, came to the prison, and strengthened, comforted, and consoled her husband as she ministered also to the other martyrs. After a series of tortures, Andrianus was martyred along with all who were with him, and they received the crowns of martyrdom, and some believers relocated the pure bodies to Pisidia.",
-      "hasHymn": null
+      "hasHymn": false
     },
     {
       "name": "Pope Yoannis XIV, 96th Patriarch of Alexandria",
       "nameArabic": "",
       "summary": "Born in Manfalut to Christian parents who raised him with a true Christian upbringing, Yoannis longed when he grew to live the ascetic life of the monks, went and became a monk at El-Baramous monastery, and lived an honorable life. After the departure of Pope Gabriel VII, he was chosen for the patriarchate and consecrated in 1571 A.D. by the name Pope Yoannis XIV. During his papacy he suffered many hardships because el-sultan levied on him an excessive tax, which he exerted great effort in collecting from the people, traveling around the land visiting his children and collecting the levied tax; during his days the government also issued a decree for Christians to wear black turbans instead of the blue ones, and the Pope of Rome renewed efforts to join the Coptic Church to the Catholic Church when he saw the hardships of the Copts, but his attempts failed. In one of his pastoral visits he went to Alexandria, and on his way back felt weak and ill at the city of El-Nahrawiah, departed there in peace, and was buried at the Church of St. George in Birma, after sitting on the apostolic throne for fifteen years, four months, and nineteen days; his body was later relocated to the monastery of St. Mary known as Dair el-Saurian in the wilderness of Shiheet.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "13-4": [
@@ -535,13 +548,28 @@
       "name": "St. Yoannis XV (John XV), 99th Pope of Alexandria",
       "nameArabic": "",
       "summary": "Departed in 1346 A.M. (1629 A.D.), 99th Patriarch of Alexandria. Born in the city of Mallawy to Christian parents who raised him in piety and godliness; became a monk in the monastery of Anba Antonius (St. Anthony), living a righteous monastic life, upright and devoted to reading books and manuscripts. When Pope Marcus V departed, the bishops, priests, and lay leaders (Archons) unanimously chose him for the patriarchate; he was consecrated on the 7th of Thoout, 1336 A.M. (1619 A.D.). Known as 'the just judge' for his strong, impartial character, he was kind to priests, merciful to the needy, and never asked anything of anyone all his life. During his papacy a grave epidemic spread, and he visited his flock in Upper Egypt many times.",
-      "hasHymn": null
+      "hasHymn": false
     },
     {
       "name": "Anba Barsoum (Parsouma) the Naked (El-Erian)",
       "nameArabic": "",
       "summary": "Departed in 1033 of the martyrs (1317 A.D.). Born in Misr (Cairo); his father El-Wageeh was scribe to Queen Shagaret el-Dor. When his parents died his uncle seized his inheritance; Barsoum did not quarrel but forsook the world for the life of a hermit, living outside the city for five years enduring summer heat and winter cold, wearing only hairy sackcloth. He then shut himself in a cave inside the church of St. Mercurius Abu-Safain in Old Cairo for twenty years in ceaseless prayer and fasting, where he tamed a huge serpent through prayer and the sign of the cross. He later lived on the church roof, was later imprisoned and beaten during a persecution, then went to the monastery of El-Shahran (Ma'asaret Helwan), where he continued his asceticism and was visited by rulers seeking his blessing. He departed at age sixty and was buried at El-Shahran, which was later renamed the Monastery of St. Barsoum el-Erian in his honor.",
-      "hasHymn": null
+      "hasHymn": true,
+      "hymnIds": [
+        "Adam Psali for the Departure of Abba Parsouma the Naked",
+        "Watos Psali for the Departure of Abba Parsouma the Naked",
+        "Verses of the Cymbals",
+        "Doxology for St. Parsouma the Naked",
+        "Gospel Response",
+        "Hymn of Intercessions",
+        "Praxis Response"
+      ]
+    },
+    {
+      "name": "St. James, Bishop of Misr",
+      "nameArabic": "",
+      "summary": "Coptic Reader presents James as a monk who became Bishop of Misr (Cairo), completed his good endeavor, and departed in peace, giving no further birthplace or career details in the entry as checked.",
+      "hasHymn": false
     }
   ],
   "1-1": [
@@ -562,6 +590,24 @@
       "name": "Pope Marcus V (Mark V), 98th Pope of Alexandria",
       "nameArabic": "",
       "summary": "Departed in 1619 A.D. Native of El-Bayadiah (Mallawy, El-Minia Governorate), inclined to the ascetic life from a young age; became a monk at the monastery of St. Macarius in the wilderness of Scetis (Shiheet). After the departure of Pope Gabriel VIII, he was chosen and ordained Patriarch, enthroned Sunday, 26th of Paone, 1319 A.M. (1603 A.D.) at the church of St. Philopateer Mercurius (Abu-Saifain) in Old Cairo. Well educated in ecclesiastical subjects, canons, and laws, he remained steadfast defending the teachings of Scripture amid hardships over the Personal Status Law. He made pastoral visits to Upper Egypt and Jerusalem; his patriarchal seat was at the church of St. Mary in Haret Zewailah. He was buried with great veneration at the monastery of St. Macarius in Scetis.",
+      "hasHymn": false
+    },
+    {
+      "name": "The Commemoration of the Healing of the Righteous Job",
+      "nameArabic": "",
+      "summary": "Job is presented as the righteous man who endured severe affliction and loss, remained steadfast, and was then healed by God. God restored his fortunes and his children, and he lived one hundred and forty years after his affliction, seeing his children and descendants.",
+      "hasHymn": false
+    },
+    {
+      "name": "St. Bartholomew the Apostle",
+      "nameArabic": "",
+      "summary": "Bartholomew was one of the twelve apostles, who preached in El-Yemen, then went to Armenia, India, and Asia Minor, preaching the Gospel of Christ. Coptic Reader says he was martyred in Armenia in 71 A.D., giving no specific method of martyrdom in the text as checked.",
+      "hasHymn": false
+    },
+    {
+      "name": "Pope Milius, the Second Patriarch",
+      "nameArabic": "",
+      "summary": "Milius was the second patriarch after St. Mark, succeeding St. Anianus, and was enthroned in 83 A.D. He shepherded the flock with care, completed his good endeavor, and departed in peace in 95 A.D.",
       "hasHymn": false
     }
   ],
@@ -784,6 +830,12 @@
       "name": "Assembly of the Third Ecumenical Council at Ephesus",
       "nameArabic": "",
       "summary": "In 147 A.M. (431 A.D.), the Ecumenical Council convened at Ephesus in Asia Minor, attended by 200 bishops. Emperor Theodosius II convened the council to examine the heresy of Nestorius, Archbishop of Constantinople, who taught that St. Mary did not give birth to the incarnate God but only to a human being, and that the Son of God afterward dwelt in him — a dwelling of will rather than unity — and therefore it was not lawful to call her Theotokos (God-bearer).",
+      "hasHymn": false
+    },
+    {
+      "name": "The Translocation of the Relics of St. Clemus and his companions to Alexandria",
+      "nameArabic": "",
+      "summary": "Coptic Reader lists the translocation of the relics of St. Clemus and his companions to Alexandria on this day, but the Synaxarion page as checked gives this heading with no further narrative about Clemus, his companions, or the translocation itself.",
       "hasHymn": false
     }
   ],
