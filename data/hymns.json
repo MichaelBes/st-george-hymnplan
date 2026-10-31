@@ -1,14 +1,37 @@
 {
   "_schema_note": "category is one of: Doxology, Intercession, Communion, Praise, General. tags can include saint names, season names, or feast names for filtering. Add hymns as you build out your library.",
-
   "hymns": [
     {
       "id": "example-hymn-id",
       "title": "Example Hymn Title",
       "category": "Intercession",
       "language": "English",
-      "tags": ["Saint Name"],
+      "tags": [
+        "Saint Name"
+      ],
       "lyricsLink": ""
+    },
+    {
+      "id": "bread-of-life",
+      "title": "The Bread of Life",
+      "category": "Communion",
+      "language": "English / Coptic / Arabic",
+      "tags": [
+        "Communion"
+      ],
+      "lyricsLink": "",
+      "slides": [
+        "data/slides/bread-of-life/01.png",
+        "data/slides/bread-of-life/02.png",
+        "data/slides/bread-of-life/03.png",
+        "data/slides/bread-of-life/04.png",
+        "data/slides/bread-of-life/05.png",
+        "data/slides/bread-of-life/06.png",
+        "data/slides/bread-of-life/07.png",
+        "data/slides/bread-of-life/08.png",
+        "data/slides/bread-of-life/09.png",
+        "data/slides/bread-of-life/10.png"
+      ]
     }
   ]
 }
