@@ -15,6 +15,11 @@
 </div>
 
 <main>
+  <div class="service-bar">
+    <label>Service date <input type="date" id="service-date" /></label>
+    <span id="sync-status" class="sync-status"></span>
+    <button id="sync-refresh" class="ghost">Refresh</button>
+  </div>
   <div class="section-label">This Plan</div>
   <ul class="plan-list" id="plan-list">
     <li class="empty-state">No hymns added yet.</li>
@@ -24,11 +29,6 @@
   <input type="text" id="search-box" placeholder="Search by title or tag…" style="margin-bottom: 14px;" />
   <div id="library-list"></div>
 
-  <p class="empty-state" style="margin-top: 24px; font-size: 0.85rem;">
-    This plan lives in memory for now and clears on reload.
-    Wire up <code>saveplan()</code> in <code>js/plan.js</code> to your
-    Google Apps Script endpoint to make it persist — see README.
-  </p>
 </main>
 
 <nav class="bottom-nav">
@@ -38,7 +38,9 @@
 </nav>
 
 <script src="js/coptic-calendar.js"></script>
+<script src="js/config.js"></script>
 <script src="js/app.js"></script>
+<script src="js/sync.js"></script>
 <script src="js/plan.js"></script>
 </body>
 </html>
