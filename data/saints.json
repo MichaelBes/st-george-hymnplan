@@ -487,7 +487,7 @@
       "name": "St. Theodora the Penitent (of Alexandria)",
       "nameArabic": "",
       "summary": "Born in the fifth century to noble parents in Alexandria, Theodora was a beautiful and virtuous young woman married to a pure and wealthy young man, until she fell into adultery and, overcome with guilt and tears, left the world. Disguised in men's clothing with her hair shaved, she entered the men's monastery of Ennaton as the monk Theodore, living in prayer, obedience, humility, and intense asceticism and gaining a gift of miracles. When a woman falsely accused Theodore of defiling her, Theodora endured the mockery without defending herself, was entrusted with the resulting infant, was expelled in disgrace, and spent seven years in a hut near the monastery, feeding the child on shepherds' milk and eating only wild vegetables, before being readmitted to seclusion in a cell with the child. She departed in 510 A.D., and when the monks prepared her body they discovered she was a woman; her husband then became a monk in her cell, and the child later became abbot of the monastery.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-4": [
@@ -501,13 +501,22 @@
       "name": "Pope Macarius II, 69th Pope of Alexandria",
       "nameArabic": "",
       "summary": "Pious and ascetic from his youth, Macarius longed for monastic life and became a monk of the Monastery of St. Macarius, devoting himself to worship, asceticism, and reading the Holy Scriptures, and growing in virtue and knowledge as a skillful painter of icons and decorator of manuscripts. After the departure of Pope Mikhail II, the Holy Synod elected him, and though he was taken bound against his will and wept, begging to be released as unfit, he was consecrated Patriarch in the Church of St. Mark in Alexandria in 1102 A.D. and then enthroned in Cairo in the Church of the Holy Virgin, El-Muallaqah. During his papacy he added to worship and piety, taught and preached daily, and gave alms and works of mercy to the poor and needy, before departing in peace in 1128 A.D. after a papacy of twenty-five years and nine months; he was buried with great honor in the Church of the Holy Virgin, El-Muallaqah.",
-      "hasHymn": null
+      "hasHymn": false
     },
     {
       "name": "St. Verena",
       "nameArabic": "",
       "summary": "Born in the village of Garagous in the Theban region to Christian parents, Verena was baptized by Bishop Chaerimon of Nilus, who oversaw her religious upbringing, and she grew in grace and faith while visiting and ministering to imprisoned Christians. She went with the Theban Legion from Thebes to Gaul in the reign of Emperor Diocletian, and after the legion's martyrdom at Agaunum she withdrew to a cave near Salodurum, living an austere life of prayer and fasting supported by her handiwork, performing many healings through her prayers, and teaching young girls chastity and sound hygienic practices. Arrested by the ruler, she was consoled in prison by an appearance of St. Maurice and released after the Lord healed the governor through her; she then lived at Zurzach in Switzerland, in a house beside the Church of the Virgin St. Mary, where she cared for the poor and sick, before spending eleven years in solitary life in a cave. Near her departure the Holy Virgin appeared to her with virgins in the cave and told her of eternal life and Paradise, and Verena departed amid incense, was buried with great honor, and became the patron saint of Zurzach, where a church was built in her name.",
-      "hasHymn": null
+      "hasHymn": true,
+      "hymnIds": [
+        "Verses of the Cymbals",
+        "Doxology for St. Verena",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response",
+        "Saint Verena",
+        "Another Melody of Saint Verena"
+      ]
     }
   ],
   "1-5": [
@@ -522,14 +531,14 @@
     {
       "name": "Isaiah the Prophet",
       "nameArabic": "",
-      "summary": "Martyred about 710 years before the advent of the Lord. One of the Major Prophets, a descendant of the kings of Judah; his name means 'Salvation is of the Lord.' He prophesied in the days of five kings of Judah — Uzziah, Jotham, Ahaz, Hezekiah, and Manasseh — and was contemporary with the prophets Amos, Hosea, Obadiah, Micah, and Nahum. In the year King Uzziah died (740 B.C.), Isaiah saw a heavenly vision in the temple and heard God's call to be a prophet. He named his sons symbolically: Shear-Jashub ('a remnant shall return') and Maher-Shalal-Hash-Baz ('making a swift plunder of spoils'), prophesying the coming Babylonian exile of Judah.",
+      "summary": "Martyred about 710 years before the advent of the Lord. One of the Major Prophets, a descendant of the kings of Judah; his name means 'Salvation is of the Lord.' He prophesied in the days of five kings of Judah — Uzziah, Jotham, Ahaz, Hezekiah, and Manasseh — and was contemporary with the prophets Amos, Hosea, Obadiah, Micah, and Nahum. In the year King Ahaz died (740 B.C.), Isaiah saw a heavenly vision in the temple and heard God's call to be a prophet. He named his sons symbolically: Shear-Jashub ('a remnant shall return') and Maher-Shalal-Hash-Baz ('making a swift plunder of spoils'), prophesying the coming Babylonian exile of Judah.",
       "hasHymn": false
     },
     {
       "name": "St. Basilissa",
       "nameArabic": "",
       "summary": "A pious Christian girl only nine years old, Basilissa was martyred in the days of the Emperor Diocletian. She was seized, bound hand and foot, and cast into the fire, but the Lord saved her from the burning and she remained steadfast in her faith in Christ. Through her prayers God caused water to spring up, she drank, and then she committed her soul into the hand of the Lord, receiving the crown of martyrdom.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-7": [
@@ -543,19 +552,30 @@
       "name": "Pope Youannes (John) XII, 93rd Pope of Alexandria",
       "nameArabic": "",
       "summary": "Born in the city of Naqada in the province of Quena, Youannes was raised by his parents in a true Christian upbringing, longed for monastic life when he grew, went to the Monastery of the Virgin known as Dair Al-Muharraq, became a monk, grew in virtue and asceticism, and was ordained a priest. When the papal throne became vacant after the departure of Pope Michael IV, the bishops and people chose him, and he was consecrated patriarch by the name Youannes XII in 1480 A.D. He shepherded the Christian people with the best of care, remaining on the throne for three years and four months teaching and interpreting the Holy Scriptures in uprightness, before departing in peace in 1483 A.D.; he was buried in the Church of the Virgin, Babylon, in Old Cairo.",
-      "hasHymn": null
+      "hasHymn": false
     },
     {
       "name": "St. Rebecca and her five children, Agathon, Peter, John, Amun and Amuna",
       "nameArabic": "",
       "summary": "From Kamola in the district of Kus, Rebecca and her five children were martyred during the reign of Emperor Diocletian, in the years 303 to 305 A.D. When they heard that Diocletian had ordered the persecution of Christians and the closing of churches, they spent the night in prayer, and an angel announced that they would receive the crown of martyrdom, so they rejoiced, gave all their possessions to the poor, and released their servants. They confessed Christ before Dionysius, the governor of Kus, who tortured them severely, beginning with their mother, who bore it patiently and with joy and strengthened her children to endure; they were then sent to Armanius, governor of Alexandria, who tortured them and cast them into a cauldron of boiling oil, yet the Lord raised them whole, and the governor at last ordered them beheaded. Their bodies were placed in a boat to be cast into the sea, but an angel directed a rich man from Nakraha to take them, and he laid them in the church, where God manifested many signs and wonders from their relics; after later relocations they came to rest at Sonbat, where a church known as El-Sitt Refqa and her five children still stands and their bodies remain to the present time.",
-      "hasHymn": null
+      "hasHymn": true,
+      "hymnIds": [
+        "Adam Psali for the Martyrdom of Saints Rebecca and Her Five Children",
+        "Watos Psali for the Martyrdom of Saints Rebecca and Her Five Children",
+        "Verses of the Cymbals",
+        "Doxology for St. Rebecca",
+        "Gospel Response",
+        "Hymn of the Intercessions",
+        "Praxis Response",
+        "Melody for St. Rebecca and Her Five Children",
+        "Second Melody for St. Rebecca and Her Five Children"
+      ]
     },
     {
       "name": "St. Severian (Severianus), Bishop of Gabala",
       "nameArabic": "",
       "summary": "A well-educated and righteous father, Severian departed in 405 A.D. as Bishop of Gabala in Greece. After his parents departed and left him great wealth, he built a guest house for strangers, the poor, and the afflicted, and distributed the rest of his money to the poor and needy; when this was reported to Emperor Honorius, the emperor invited him to stay in the palace, but Severian, fearing to lose his labor amid such honor, was commanded by an angel to go to Gabala, where he dwelt in a monastery and became a comfort to many souls, teaching the monks until they became like angels. God performed many wonders at his hands, including casting an evil spirit out of the governor of Gabala's daughter, and the bishop of Gabala learned in a vision that Severian would succeed him, so after that bishop's departure Severian was consecrated bishop and cared for his people so that many Jews, pagans, and sorcerers believed at his hands. He wrote many valuable discourses, homilies, and sermons that still exist in the church books, and when he grew old, reaching one hundred years, an angel informed him of the day of his departure, and he commended his people and departed in peace.",
-      "hasHymn": null
+      "hasHymn": false
     }
   ],
   "1-8": [
@@ -564,6 +584,18 @@
       "nameArabic": "",
       "summary": "Departed in 1485 B.C. The great righteous head of the prophets, born in Egypt in 1605 B.C. to Amram and Jochebed of the tribe of Levi, during the reign of King Aminophees, Pharaoh of Egypt, who ordered every male Hebrew child killed. By faith his parents hid him three months, then set him adrift on the Nile in an ark of bulrushes; Pharaoh's daughter found and adopted him, and his sister Miriam arranged for his own mother to nurse him.",
       "hasHymn": false
+    },
+    {
+      "name": "St. Zacharias the Priest",
+      "nameArabic": "",
+      "summary": "Zacharias was a priest serving in the temple, the husband of Elizabeth and father of John the Baptist. In their old age the angel Gabriel told him that Elizabeth would bear John, and after the child's birth Zacharias confirmed his name. When Herod's soldiers sought the infant, Zacharias refused to reveal where John was hidden, and the soldiers killed him between the altar and the temple.",
+      "hasHymn": null
+    },
+    {
+      "name": "St. Dimides (Diomede), the Presbyter",
+      "nameArabic": "",
+      "summary": "Dimides was a presbyter living in the time of the persecutions against Christians. He was seized for refusing to sacrifice to idols, and he was tortured for his refusal. Remaining steadfast in his faith, he was beheaded and received the crown of martyrdom.",
+      "hasHymn": null
     }
   ],
   "1-9": [
@@ -576,6 +608,12 @@
         "Adam Psali for the Martyrdom of Abba Pisoura the Bishop",
         "Watos Psali for the Martyrdom of Abba Pisoura the Bishop"
       ]
+    },
+    {
+      "name": "Sts. Pilus and Nylios",
+      "nameArabic": "",
+      "summary": "Pilus and Nylios were Christians in Upper Egypt during the persecution of the Church. They were seized and tortured for refusing to deny Christ, and they remained steadfast under torment. They were beheaded together, receiving the crown of martyrdom.",
+      "hasHymn": null
     }
   ],
   "1-10": [
@@ -584,6 +622,18 @@
       "nameArabic": "",
       "summary": "Martyred during the reign of Emperor Maximinus Daza (305–313 A.D.). St. Youannes loved the Lord with all his heart and memorized Holy Scripture until it was imprinted deep in his soul; he met Eusebius of Caesarea, the father of church history, who was amazed at his vast knowledge of the Holy Book. He and his twenty companions confessed Christ before the Governor, who sentenced them to hard labor under the scourching sun, then ordered St. Youannes' eyes plucked out and one of his legs burned with red-hot iron, and finally ordered them all beheaded, so they received the crowns of martyrdom.",
       "hasHymn": false
+    },
+    {
+      "name": "St. Matruna",
+      "nameArabic": "",
+      "summary": "Matruna was raised in a Christian home, but as she grew up life forced her to work as a maid-servant in the home of a Jewish lady. Her mistress tried to entice her to adopt the Jewish religion, but Matruna would not yield, so her mistress humiliated, ill-treated, and over-burdened her with servitude. One day her mistress imprisoned her in a dark room for four days without food or drink, then took her out, beat her painfully, and returned her to imprisonment. There she died, receiving the crown of martyrdom for her steadfastness in the faith.",
+      "hasHymn": null
+    },
+    {
+      "name": "Sts. Basin and Her Three Children",
+      "nameArabic": "",
+      "summary": "Coptic Reader lists the commemoration of Sts. Basin and her three children on this day, but the Synaxarion page as checked gives this heading with no further narrative about them, so no life, place, or manner of death can be recorded from Coptic Reader for this entry.",
+      "hasHymn": null
     }
   ],
   "1-11": [
@@ -591,6 +641,12 @@
       "name": "St. Basilides (Wasilides), the Minister",
       "nameArabic": "",
       "summary": "Martyred during the reign of Emperor Diocletian. A member of the cabinet and counselor during the reign of Emperor Numerianus, who married Basilides' sister; Basilides had two sons, Eusabius and Macarius. When the Persians waged war against Rome, Numerianus sent his son Yustus to fight them, and was later killed by his in-law Arrius Aper; Diocletian, Numerianus' servant, rose up, killed Arrius, and was proclaimed Emperor in Antioch in 284 A.D. Diocletian later renounced Christ, worshipped idols, and on 23 February 303 A.D. issued his edict of persecution, beginning by eliminating the royal family; he sent Basilides to Masrus, governor of the Five Western Cities (Pentapolis), who tortured him severely.",
+      "hasHymn": null
+    },
+    {
+      "name": "The Three Farmers in Esna",
+      "nameArabic": "",
+      "summary": "Three farmers from Esna in Upper Egypt confessed Christ during the persecution of the Church. They were seized and tortured for refusing to sacrifice to idols, and they would not waver in their faith. They were beheaded together, receiving the crown of martyrdom.",
       "hasHymn": null
     }
   ],
@@ -624,6 +680,12 @@
       "nameArabic": "",
       "summary": "Commemorates a miracle performed by St. Basil the Great, Bishop of Caesarea, Cappadocia. A young man of Caesarea loved his master’s daughter; unable to marry her, he resorted to a magician, who had him sign a covenant with the devil at midnight in an unbelievers’ cemetery, denying faith in Christ. Satan then kindled lust for the young man in the girl’s heart, and her father gave her in marriage to him. Through her parents’ prayers, God opened the wife’s eyes to realize he was not a true Christian.",
       "hasHymn": false
+    },
+    {
+      "name": "Pope Mettaos II (Matthew II), 90th Patriarch of the See of St. Mark",
+      "nameArabic": "",
+      "summary": "Formerly Matta El-Sa'idy, Mettaos was a monk of the Monastery of St. Mary, El-Muharraq, and was chosen after Pope Youannes XI, the 89th Patriarch, being consecrated in 1452 A.D. during the days of Sultan Fakhr-El-Deen Othman. He resided at the ancient church of St. Mary in Haret Zeewailah in Old Cairo, ordained Anba Gabriel as metropolitan for Ethiopia, and made the Holy Myron at the Church of the Holy Virgin in Haret El-Roum, Cairo, with six bishops. He sat on the throne of St. Mark for thirteen years in peace and tranquility, departed in peace in 1465 A.D., and was buried in Dair El-Khandaq, nowadays known as Dair El-Anba-Rewis.",
+      "hasHymn": null
     }
   ],
   "1-14": [
@@ -632,6 +694,12 @@
       "nameArabic": "",
       "summary": "Departed in the year 444 of the martyrs (728 A.D.). From the city of Tinnis (an ancient Egyptian city, formerly called Sawan, now in El-Sharqia Governorate); his father was Matra and mother Mariam, both righteous and charitable. He grew up loving God and inclined to monastic life, and was ordained a priest at age 35, devoting himself to perpetual prayer day and night and serving God's people with love and sincerity. He asked Christ to help him leave the world for the desert; an angel appeared to him in the form of a monk and led him to the monastery of St. Macarius the Great in Scetis.",
       "hasHymn": false
+    },
+    {
+      "name": "Sts. Felix and Regula, his Sister, and St. Exuperantius",
+      "nameArabic": "",
+      "summary": "Felix, his sister Regula, and Exuperantius were from Thebes in Upper Egypt; Felix and Exuperantius joined the Theban Legion headed by St. Maurice, and Regula accompanied her brother Felix. After Maurice advised the steadfast legion to leave Agaunum, they went to Zurich spreading the Christian faith, while Emperor Maximian ordered the whole legion slain and its associates pursued. The governor seized the three, who confessed Christ and their association with Maurice, and tortured them severely without making them waver, including Regula's healing after being placed in boiling wax and forced to drink melted lead. They were then ordered beheaded, after which they stood, carried their heads in their hands, walked about twenty-eight yards, knelt, and fell again; they were shrouded and buried, churches were built for them in Zurich, and part of their relics was later transferred in 1610 A.D. to the Church of Sts. Peter and Paul in Andermatt, Switzerland.",
+      "hasHymn": null
     }
   ],
   "1-15": [
