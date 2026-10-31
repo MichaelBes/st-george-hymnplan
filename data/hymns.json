@@ -57,6 +57,17 @@
         "data/slides/adam-psali-jesus/11.png",
         "data/slides/adam-psali-jesus/12.png"
       ]
+    },
+    {
+      "id": "my-coptic-church",
+      "title": "My Coptic Church",
+      "category": "Communion",
+      "language": "English",
+      "tags": [
+        "Communion"
+      ],
+      "lyricsLink": "",
+      "versesFile": "data/verses/my-coptic-church.txt"
     }
   ]
 }
