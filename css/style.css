@@ -433,3 +433,11 @@ input[type="text"], select {
 .slide-mode .tap-next { right: 0; width: 70%; }
 .slide-mode .slide-exit { position: absolute; top: calc(env(safe-area-inset-top) + 10px); right: 12px; z-index: 3; padding: 10px 16px; font-size: 16px; border: 0; border-radius: 999px; background: rgba(40,40,40,.65); color: #fff; opacity: .55; }
 .slide-mode.image-mode .slide-counter { right: auto; position: absolute; z-index: 3; left: 12px; top: calc(env(safe-area-inset-top) + 10px); padding: 6px 12px; border-radius: 999px; background: rgba(40,40,40,.65); color: #fff; font-size: 14px; opacity: .55; }
+
+/* ---------- Text verse slides (dark) ---------- */
+.slide-mode #slide-verse { display: none; position: absolute; inset: 0; padding: 7vh 6vw; box-sizing: border-box; background: #000; color: #fff; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2rem, 5.2vw, 4.2rem); line-height: 1.35; white-space: pre-line; text-align: left; align-items: center; overflow: hidden; }
+.slide-mode.verse-mode #slide-verse { display: flex; }
+.slide-mode.verse-mode { background: #000; }
+.slide-mode.verse-mode .slide-nav { display: none; }
+.slide-mode.verse-mode .tap-zone, .slide-mode.verse-mode .slide-exit { display: block; }
+.slide-mode.verse-mode .slide-counter { right: auto; position: absolute; z-index: 3; left: 12px; top: calc(env(safe-area-inset-top) + 10px); padding: 6px 12px; border-radius: 999px; background: rgba(40,40,40,.65); color: #fff; font-size: 14px; opacity: .55; }
