@@ -67,7 +67,9 @@ function renderLibrary() {
 function buildFrames() {
   frames = [];
   selected.forEach((hymn) => {
-    if (hymn.slides && hymn.slides.length) {
+    if (hymn.verses && hymn.verses.length) {
+      hymn.verses.forEach((text) => frames.push({ hymn, text }));
+    } else if (hymn.slides && hymn.slides.length) {
       hymn.slides.forEach((src) => frames.push({ hymn, src }));
     } else {
       frames.push({ hymn });
@@ -80,6 +82,9 @@ function showSlide() {
   const view = document.getElementById("slide-view");
   const img = document.getElementById("slide-image");
   view.classList.toggle("image-mode", !!f.src);
+  view.classList.toggle("verse-mode", !!f.text);
+  const verse = document.getElementById("slide-verse");
+  verse.textContent = f.text || "";
   if (f.src) {
     img.src = f.src;
     img.style.display = "block";
@@ -87,8 +92,8 @@ function showSlide() {
     img.removeAttribute("src");
     img.style.display = "none";
   }
-  document.getElementById("slide-title").textContent = f.src ? "" : f.hymn.title;
-  document.getElementById("slide-meta").textContent = f.src ? "" : f.hymn.language || "";
+  document.getElementById("slide-title").textContent = f.src || f.text ? "" : f.hymn.title;
+  document.getElementById("slide-meta").textContent = f.src || f.text ? "" : f.hymn.language || "";
   document.getElementById("slide-counter").textContent =
     `${slideIndex + 1} / ${frames.length}`;
   // preload next
@@ -103,8 +108,23 @@ function prevSlide() {
   if (slideIndex > 0) { slideIndex--; showSlide(); }
 }
 
-function startSlides() {
+async function loadVerseFiles() {
+  for (const hymn of selected) {
+    if (hymn.versesFile && !hymn.verses) {
+      try {
+        const res = await fetch(hymn.versesFile);
+        const txt = await res.text();
+        hymn.verses = txt.split(/\n\s*\n/).map((v) => v.trim().replace(/^\d+[.)]\s*/, "")).filter(Boolean);
+      } catch (e) {
+        hymn.verses = ["Could not load " + hymn.versesFile];
+      }
+    }
+  }
+}
+
+async function startSlides() {
   if (selected.length === 0) return;
+  await loadVerseFiles();
   buildFrames();
   slideIndex = 0;
   document.getElementById("picker-view").style.display = "none";
