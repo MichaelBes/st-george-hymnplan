@@ -1,8 +1,6 @@
 /**
  * Service planning page logic.
- * The current plan is kept in memory only (state resets on reload).
- * Replace savePlan() with a call to your Google Apps Script Web App
- * once the hymn library moves to a Google Sheet — see README.
+ * The plan is saved per service date via js/sync.js (Google Sheet + on-device cache).
  */
 
 let allHymns = [];
@@ -25,7 +23,11 @@ function renderPlan() {
         <div class="hymn-row-title">${hymn.title}</div>
         <div class="hymn-row-meta">${hymn.category} · ${hymn.language}</div>
       </div>
-      <button class="remove" data-index="${index}">Remove</button>
+      <div class="row-actions">
+        <button class="move" data-dir="-1" data-index="${index}" aria-label="Move up">↑</button>
+        <button class="move" data-dir="1" data-index="${index}" aria-label="Move down">↓</button>
+        <button class="remove" data-index="${index}">Remove</button>
+      </div>
     `;
     list.appendChild(li);
   });
@@ -34,8 +36,32 @@ function renderPlan() {
     btn.addEventListener("click", () => {
       currentPlan.splice(Number(btn.dataset.index), 1);
       renderPlan();
+      persistPlan();
     });
   });
+  list.querySelectorAll("button.move").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const i = Number(btn.dataset.index), j = i + Number(btn.dataset.dir);
+      if (j < 0 || j >= currentPlan.length) return;
+      [currentPlan[i], currentPlan[j]] = [currentPlan[j], currentPlan[i]];
+      renderPlan();
+      persistPlan();
+    });
+  });
+}
+
+let serviceDate = null;
+function persistPlan() {
+  savePlanField(serviceDate, "plan", currentPlan.map((h) => h.id));
+}
+
+async function loadServicePlan(date) {
+  serviceDate = date;
+  const data = await fetchPlan(date);
+  currentPlan = (data.plan || [])
+    .map((id) => allHymns.find((h) => h.id === id))
+    .filter(Boolean);
+  renderPlan();
 }
 
 function renderLibrary(filterText = "") {
@@ -70,6 +96,7 @@ function renderLibrary(filterText = "") {
       const hymn = allHymns.find((h) => h.id === btn.dataset.id);
       currentPlan.push(hymn);
       renderPlan();
+      persistPlan();
     });
   });
 }
@@ -78,7 +105,8 @@ async function init() {
   propagateDateToNavLinks(getActiveView(), isViewingLive());
   allHymns = await loadHymns();
   renderLibrary();
-  renderPlan();
+  const date = initServiceBar((d) => loadServicePlan(d));
+  await loadServicePlan(date);
 
   document.getElementById("search-box").addEventListener("input", (e) => {
     renderLibrary(e.target.value);

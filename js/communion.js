@@ -23,7 +23,11 @@ function renderSelected() {
     li.className = "hymn-row";
     li.innerHTML = `
       <div class="hymn-row-title">${index + 1}. ${hymn.title}</div>
-      <button class="remove" data-index="${index}">Remove</button>
+      <div class="row-actions">
+        <button class="move" data-dir="-1" data-index="${index}" aria-label="Move up">↑</button>
+        <button class="move" data-dir="1" data-index="${index}" aria-label="Move down">↓</button>
+        <button class="remove" data-index="${index}">Remove</button>
+      </div>
     `;
     list.appendChild(li);
   });
@@ -32,8 +36,32 @@ function renderSelected() {
     btn.addEventListener("click", () => {
       selected.splice(Number(btn.dataset.index), 1);
       renderSelected();
+      persistSelected();
     });
   });
+  list.querySelectorAll("button.move").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const i = Number(btn.dataset.index), j = i + Number(btn.dataset.dir);
+      if (j < 0 || j >= selected.length) return;
+      [selected[i], selected[j]] = [selected[j], selected[i]];
+      renderSelected();
+      persistSelected();
+    });
+  });
+}
+
+let serviceDate = null;
+function persistSelected() {
+  savePlanField(serviceDate, "communion", selected.map((h) => h.id));
+}
+
+async function loadServicePlan(date) {
+  serviceDate = date;
+  const data = await fetchPlan(date);
+  selected = (data.communion || [])
+    .map((id) => communionHymns.find((h) => h.id === id))
+    .filter(Boolean);
+  renderSelected();
 }
 
 function renderLibrary() {
@@ -60,6 +88,7 @@ function renderLibrary() {
       const hymn = communionHymns.find((h) => h.id === btn.dataset.id);
       selected.push(hymn);
       renderSelected();
+      persistSelected();
     });
   });
 }
@@ -150,6 +179,11 @@ async function init() {
 
   renderLibrary();
   renderSelected();
+  const date = initServiceBar((d) => {
+    if (document.getElementById("slide-view").style.display !== "none") return;
+    loadServicePlan(d);
+  });
+  await loadServicePlan(date);
 
   document.getElementById("start-slides").addEventListener("click", startSlides);
   document.getElementById("exit-slides").addEventListener("click", exitSlides);
