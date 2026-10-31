@@ -32,6 +32,31 @@
         "data/slides/bread-of-life/09.png",
         "data/slides/bread-of-life/10.png"
       ]
+    },
+    {
+      "id": "adam-psali-lord-jesus-sunday-theotokia",
+      "title": "Sunday Adam Psali for the Lord Jesus",
+      "category": "Communion",
+      "language": "English / Coptic / Arabic",
+      "tags": [
+        "Communion",
+        "Psali"
+      ],
+      "lyricsLink": "",
+      "slides": [
+        "data/slides/adam-psali-jesus/01.png",
+        "data/slides/adam-psali-jesus/02.png",
+        "data/slides/adam-psali-jesus/03.png",
+        "data/slides/adam-psali-jesus/04.png",
+        "data/slides/adam-psali-jesus/05.png",
+        "data/slides/adam-psali-jesus/06.png",
+        "data/slides/adam-psali-jesus/07.png",
+        "data/slides/adam-psali-jesus/08.png",
+        "data/slides/adam-psali-jesus/09.png",
+        "data/slides/adam-psali-jesus/10.png",
+        "data/slides/adam-psali-jesus/11.png",
+        "data/slides/adam-psali-jesus/12.png"
+      ]
     }
   ]
 }
