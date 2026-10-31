@@ -435,9 +435,14 @@ input[type="text"], select {
 .slide-mode.image-mode .slide-counter { right: auto; position: absolute; z-index: 3; left: 12px; top: calc(env(safe-area-inset-top) + 10px); padding: 6px 12px; border-radius: 999px; background: rgba(40,40,40,.65); color: #fff; font-size: 14px; opacity: .55; }
 
 /* ---------- Text verse slides (dark) ---------- */
-.slide-mode #slide-verse { display: none; position: absolute; inset: 0; padding: 7vh 6vw; box-sizing: border-box; background: #000; color: #fff; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.4rem, 3.4vw, 2.8rem); line-height: 1.4; white-space: pre-line; text-align: left; align-items: center; overflow: hidden; }
+.slide-mode #slide-verse { display: none; position: absolute; inset: 0; padding: 7vh 6vw; box-sizing: border-box; background: #000; color: #fff; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.6rem, 4vw, 3.3rem); line-height: 1.4; white-space: pre-line; text-align: left; align-items: center; overflow: hidden; }
 .slide-mode.verse-mode #slide-verse { display: flex; }
 .slide-mode.verse-mode { background: #000; }
 .slide-mode.verse-mode .slide-nav { display: none; }
 .slide-mode.verse-mode .tap-zone, .slide-mode.verse-mode .slide-exit { display: block; }
 .slide-mode.verse-mode .slide-counter { right: auto; position: absolute; z-index: 3; left: 12px; top: calc(env(safe-area-inset-top) + 10px); padding: 6px 12px; border-radius: 999px; background: rgba(40,40,40,.65); color: #fff; font-size: 14px; opacity: .55; }
+
+.slide-mode #verse-title, .slide-mode #verse-end { display: none; position: absolute; z-index: 1; color: #d9c58a; font-family: Georgia, "Times New Roman", serif; pointer-events: none; }
+.slide-mode.verse-mode #verse-title { display: block; top: calc(env(safe-area-inset-top) + 18px); left: 0; right: 0; text-align: center; font-size: clamp(1.4rem, 3vw, 2.4rem); letter-spacing: .04em; }
+.slide-mode.verse-mode #verse-end { right: 28px; bottom: calc(env(safe-area-inset-bottom) + 22px); font-size: clamp(1.1rem, 2.4vw, 1.8rem); font-style: italic; }
+.slide-mode:not(.verse-mode) #verse-end { display: none !important; }
