@@ -68,7 +68,9 @@ function buildFrames() {
   frames = [];
   selected.forEach((hymn) => {
     if (hymn.verses && hymn.verses.length) {
-      hymn.verses.forEach((text) => frames.push({ hymn, text }));
+      hymn.verses.forEach((text, i) =>
+        frames.push({ hymn, text, first: i === 0, last: i === hymn.verses.length - 1 })
+      );
     } else if (hymn.slides && hymn.slides.length) {
       hymn.slides.forEach((src) => frames.push({ hymn, src }));
     } else {
@@ -85,6 +87,8 @@ function showSlide() {
   view.classList.toggle("verse-mode", !!f.text);
   const verse = document.getElementById("slide-verse");
   verse.textContent = f.text || "";
+  document.getElementById("verse-title").textContent = f.first ? f.hymn.title : "";
+  document.getElementById("verse-end").style.display = f.last ? "block" : "none";
   if (f.src) {
     img.src = f.src;
     img.style.display = "block";
