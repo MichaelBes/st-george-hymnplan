@@ -68,6 +68,17 @@
       ],
       "lyricsLink": "",
       "versesFile": "data/verses/my-coptic-church.txt"
+    },
+    {
+      "id": "in-the-midst-of-the-raging-sea",
+      "title": "In the Midst of the Raging Sea",
+      "category": "Communion",
+      "language": "English",
+      "tags": [
+        "Communion"
+      ],
+      "lyricsLink": "",
+      "versesFile": "data/verses/in-the-midst-of-the-raging-sea.txt"
     }
   ]
 }
