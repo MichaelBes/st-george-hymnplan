@@ -7,6 +7,7 @@
 let communionHymns = [];
 let selected = [];
 let slideIndex = 0;
+let frames = [];
 
 function renderSelected() {
   const list = document.getElementById("selected-list");
@@ -63,16 +64,48 @@ function renderLibrary() {
   });
 }
 
+function buildFrames() {
+  frames = [];
+  selected.forEach((hymn) => {
+    if (hymn.slides && hymn.slides.length) {
+      hymn.slides.forEach((src) => frames.push({ hymn, src }));
+    } else {
+      frames.push({ hymn });
+    }
+  });
+}
+
 function showSlide() {
-  const hymn = selected[slideIndex];
-  document.getElementById("slide-title").textContent = hymn.title;
-  document.getElementById("slide-meta").textContent = hymn.language || "";
+  const f = frames[slideIndex];
+  const view = document.getElementById("slide-view");
+  const img = document.getElementById("slide-image");
+  view.classList.toggle("image-mode", !!f.src);
+  if (f.src) {
+    img.src = f.src;
+    img.style.display = "block";
+  } else {
+    img.removeAttribute("src");
+    img.style.display = "none";
+  }
+  document.getElementById("slide-title").textContent = f.src ? "" : f.hymn.title;
+  document.getElementById("slide-meta").textContent = f.src ? "" : f.hymn.language || "";
   document.getElementById("slide-counter").textContent =
-    `${slideIndex + 1} / ${selected.length}`;
+    `${slideIndex + 1} / ${frames.length}`;
+  // preload next
+  const n = frames[slideIndex + 1];
+  if (n && n.src) new Image().src = n.src;
+}
+
+function nextSlide() {
+  if (slideIndex < frames.length - 1) { slideIndex++; showSlide(); }
+}
+function prevSlide() {
+  if (slideIndex > 0) { slideIndex--; showSlide(); }
 }
 
 function startSlides() {
   if (selected.length === 0) return;
+  buildFrames();
   slideIndex = 0;
   document.getElementById("picker-view").style.display = "none";
   document.getElementById("bottom-nav").style.display = "none";
@@ -96,23 +129,26 @@ async function init() {
 
   document.getElementById("start-slides").addEventListener("click", startSlides);
   document.getElementById("exit-slides").addEventListener("click", exitSlides);
-  document.getElementById("next-slide").addEventListener("click", () => {
-    if (slideIndex < selected.length - 1) {
-      slideIndex++;
-      showSlide();
-    }
-  });
-  document.getElementById("prev-slide").addEventListener("click", () => {
-    if (slideIndex > 0) {
-      slideIndex--;
-      showSlide();
-    }
+  document.getElementById("exit-slides-x").addEventListener("click", exitSlides);
+  document.getElementById("next-slide").addEventListener("click", nextSlide);
+  document.getElementById("prev-slide").addEventListener("click", prevSlide);
+  document.getElementById("tap-next").addEventListener("click", nextSlide);
+  document.getElementById("tap-prev").addEventListener("click", prevSlide);
+
+  let touchX = null;
+  const sv = document.getElementById("slide-view");
+  sv.addEventListener("touchstart", (e) => { touchX = e.touches[0].clientX; }, { passive: true });
+  sv.addEventListener("touchend", (e) => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    touchX = null;
+    if (Math.abs(dx) > 50) { dx < 0 ? nextSlide() : prevSlide(); e.preventDefault(); }
   });
 
   document.addEventListener("keydown", (e) => {
     if (document.getElementById("slide-view").style.display === "none") return;
-    if (e.key === "ArrowRight") document.getElementById("next-slide").click();
-    if (e.key === "ArrowLeft") document.getElementById("prev-slide").click();
+    if (e.key === "ArrowRight" || e.key === " ") nextSlide();
+    if (e.key === "ArrowLeft") prevSlide();
     if (e.key === "Escape") exitSlides();
   });
 }
